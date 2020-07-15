@@ -12,7 +12,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
 + NLP
     + <a href="#machine-learning-for-nlp">Machine Learning for NLP</a>
     + <a href="#machine-translation">Machine Translation</a>
-    + <a href="#sentiment-analysis-stylistic-analysis-and-argument-mining">Sentiment Analysis Stylistic Analysis and Argument Mining</a>
+    + <a href="#sentiment-analysis-and-stylistic-analysis-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a>
     + <a href="#nlp-applications">NLP Applications</a>
     + <a href="#information-extraction">Information Extraction</a>
     + <a href="#dialogue-and-interactive-systems">Dialogue and Interactive Systems</a>
@@ -29,10 +29,10 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     + <a href="#natural-language-processing">Natural Language Processing</a>
     + <a href="#text-classification">Text Classification</a>
     + <a href="#information-retrieval-and-text-mining">Information Retrieval and Text Mining</a>
-    + <a href="#tagging-chunking-syntax-and-parsing">Tagging Chunking Syntax and Parsing</a>
+    + <a href="#tagging-and-chunking-and-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a>
     + <a href="#semantics">Semantics</a>
-    + <a href="#linguistic-theories,-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a>
-    + <a href="#language-grounding-to-vision,-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a>
+    + <a href="#linguistic-theories-and-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a>
+    + <a href="#language-grounding-to-vision-and-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a>
     + <a href="#computational-social-science-and-social-media">Computational Social Science and Social Media</a>
 + Machine Learning
     + <a href="#general-machine-learning">General Machine Learning</a>
@@ -47,7 +47,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     + <a href="#optimization">Optimization</a>
     + <a href="#multi-task-and-multi-view-learning">Multi-Task and Multi-View Learning</a>
     + <a href="#automl">AutoML</a>
-    + <a href="#classification,clustering,regression">Classification,Clustering,Regression</a>
+    + <a href="#classification-clustering-and-regression">Classification,Clustering,Regression</a>
     + <a href="#model-compression-and-acceleration">Model Compression and Acceleration</a>
     + <a href="#data-augmentation">Data Augmentation</a>
     + <a href="#few-shot-and-zero-shot-learning">Few-Shot and Zero-Shot Learning</a>
@@ -74,7 +74,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     <td><a href="#deep-learning">Deep Learning</a></td>
 </tr>
 <tr>
-    <td><a href="#sentiment-analysis,-stylistic-analysis,-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a></td>
+    <td><a href="#sentiment-analysis-and-stylistic-analysis-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a></td>
     <td><a href="#graph-neural-networks">Graph Neural Networks</a></td>
 </tr>
 <tr>
@@ -106,7 +106,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     <td><a href="#automl">AutoML</a></td>
 <tr>
     <td><a href="#summarization">Summarization</a></td>
-    <td><a href="#classification,clustering,regression">Classification,Clustering,Regression</a></td>
+    <td><a href="#classification-clustering-and-regression">Classification,Clustering,Regression</a></td>
 </tr>
 <tr>
     <td><a href="#question-answering">Question Answering</a></td>
@@ -140,7 +140,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     <td><a href="#meta-learning">Meta Learning</a></td>
 </tr>
 <tr>
-    <td><a href="#tagging-chunking-syntax-and-parsing">Tagging Chunking Syntax and Parsing</a></td>
+    <td><a href="#tagging-and-chunking-and-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a></td>
     <td><a href="#curriculum-learning">Curriculum Learning</a></td>
 </tr>
 <tr>
@@ -148,106 +148,16 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     <td><a href="#trustworthy-machine-learning">Trustworthy Machine Learning</a></td>
 </tr>
 <tr>
-    <td><a href="#linguistic-theories,-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a></td>
+    <td><a href="#linguistic-theories-and-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a></td>
     <td><a href="#metric-learning">Metric Learning</a></td>
 </tr>
 <tr>
-    <td><a href="#language-grounding-to-vision,-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a></td>
+    <td><a href="#language-grounding-to-vision-and-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a></td>
     <td><a href="#graph-neural-networks">Graph Neural Networks</a></td>
 </tr>
 <tr>
     <td><a href="#computational-social-science-and-social-media">Computational Social Science and Social Media</a></td>
     <td><a href="#graph-neural-networks">Graph Neural Networks</a></td>
-</tr>
-</table>
-
-<table>
-<tr><td colspan="4">NLP</td></tr> 
-<tr>
-    <td>&emsp;<a href="#machine-learning-for-nlp">Machine Learning for NLP</a></td>
-    <td>&ensp;<a href="#machine-translation">Machine Translation</a></td>
-    <td colspan="2">&ensp;<a href="#sentiment-analysis,-stylistic-analysis,-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#nlp-applications">NLP Applications</a></td>
-    <td>&ensp;<a href="#information-extraction">Information Extraction</a></td>
-    <td>&emsp;<a href="#dialogue-and-interactive-systems">Dialogue and Interactive Systems</a></td>
-    <td>&ensp;<a href="#generation">Generation</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#recommender-systems">Recommender Systems</a></td>
-    <td>&ensp;<a href="#resources-and-evaluation">Resources and Evaluation</a></td>
-    <td>&emsp;<a href="#speech-and-multimodality">Speech and Multimodality</a></td>
-    <td>&ensp;<a href="#summarization">Summarization</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#question-answering">Question Answering</a></td>
-    <td>&ensp;<a href="#knowledge-graph">Knowledge Graph</a></td>
-    <td colspan="2">&emsp;<a href="#interpretability-and-analysis-of-models-for-nLP">Interpretability and Analysis of Models for NLP</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#ner">NER</a></td>
-    <td>&ensp;<a href="#reading-comprehension">Reading Comprehension</a></td>
-    <td>&emsp;<a href="#natural-language-processing">Natural Language Processing</a></td>
-    <td>&ensp;<a href="#text-classification">Text Classification</a></td>
-</tr>
-<tr>
-    <td colspan="2">&emsp;<a href="#information-retrieval-and-text-mining">Information Retrieval and Text Mining</a></td>
-    <td colspan="2">&emsp;<a href="#syntax:-tagging,-chunking,-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#semantics">Semantics</a></td>
-    <td colspan="3">&ensp;<a href="#linguistic-theories,-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a></td>
-</tr>
-<tr>
-    <td colspan="2">&emsp;<a href="#language-grounding-to-vision,-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a></td>
-    <td colspan="2">&emsp;<a href="#computational-social-science-and-social-media">Computational Social Science and Social Media</a></td>
-</tr>
-</table>
-
-<center>Table 1</center>
-
-<table>
-<tr><td colspan="3">Machine Learning</td></tr> 
-<tr>
-    <td>&emsp;<a href="#general-machine-learning">General Machine Learning</a></td>
-    <td>&ensp;<a href="#deep-learning">Deep Learning</a></td>
-    <td>&ensp;<a href="#graph-neural-networks">Graph Neural Networks</a></td>
-</tr>
-<tr>
-    <td>&ensp;<a href="#interpretability-and-analysis">Interpretability and Analysis</a></td>
-    <td>&emsp;<a href="#architectures">Architectures</a></td>
-    <td>&ensp;<a href="#ml-applications">ML Applications</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#deep-reinforcement-learning">Deep Reinforcement Learning</a></td>
-    <td>&ensp;<a href="#transfer-learning">Transfer Learning</a></td>
-    <td>&emsp;<a href="#generative-adversarial-networks">Generative Adversarial Networks</a></td>
-</tr>
-<tr>
-    <td>&ensp;<a href="#optimization">Optimization</a></td>
-    <td>&emsp;<a href="#multi-task-and-multi-view-learning">Multi-Task and Multi-View Learning</a></td>
-    <td>&ensp;<a href="#automl">AutoML</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#classification,clustering,regression">Classification,Clustering,Regression</a></td>
-    <td>&ensp;<a href="#model-compression-and-acceleration">Model Compression and Acceleration</a></td>
-    <td>&emsp;<a href="#data-augmentation">Data Augmentation</a></td>
-</tr>
-<tr>
-    <td>&ensp;<a href="#few-shot-and-zero-shot-learning">Few-Shot and Zero-Shot Learning</a></td>
-    <td>&ensp;<a href="#semi-supervised-and-unsupervised-learning">Semi-Supervised and Unsupervised Learning</a></td>
-    <td>&emsp;<a href="#bayesian-methods">Bayesian Methods</a></td>
-</tr>
-<tr>
-    <td>&ensp;<a href="#federated-learning">Federated Learning</a></td>
-    <td>&ensp;<a href="#online-learning">Online Learning</a></td>
-    <td>&emsp;<a href="#meta-learning">Meta Learning</a></td>
-</tr>
-<tr>
-    <td>&ensp;<a href="#curriculum-learning">Curriculum Learning</a></td>
-    <td>&ensp;<a href="#trustworthy-machine-learning">Trustworthy Machine Learning</a></td>
-    <td>&ensp;<a href="#metric-learning">Metric Learning</a></td>
 </tr>
 </table>
 
@@ -259,21 +169,34 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 We order the areas by paper number (see Figure 1).
 
-![area.png](https://i.loli.net/2020/07/13/EjQp3Jn86xgZald.png)
+<img src="https://i.loli.net/2020/07/15/ItnlZ9BzYjOudEh.png" style="zoom:50%" />
 
-<center>Figure 1</center>
+<center>Figure 1:The number of different areas of survey papers in the NLP.</center>
+
+<img src="https://i.loli.net/2020/07/15/INycvlqoQTER9WU.png" style="zoom:50%" />
+
+<center>Figure 2:The number of different areas of survey papers in the Machine Learning.</center>
 
 Also, we plot paper number as a function of publication year (see Figures 2).
 
-![number.png](https://i.loli.net/2020/07/15/rwesyLRDPqcG51K.png)
+<img src="https://i.loli.net/2020/07/15/QuFVAyzHG8l1MUN.png" style="zoom:50%"/>
 
-<center>Figure 2</center>
+<center>Figure 3:The trend in the number of survery articles over the years.</center>
+
+<img src="https://i.loli.net/2020/07/15/xGQJKnyaTbtDYi6.png" style="zoom:50%"/>
+
+<center>Figure 3:The trend in the number of survery articles over the years.</center>
 
 In addition, we generate the word cloud to show the hot topics in these surveys (see Figures 3).
 
-![ciyun.jpeg](https://i.loli.net/2020/07/13/wgOWXGNvamMtqbk.jpg)
+<img src="https://i.loli.net/2020/07/15/Klfq2eLEBrW1sAH.png" style="zoom:40%"/>
 
-<center>Figure 3</center>
+<center>Figure 4:The word cloud of NLP.</center>
+
+<img src="https://i.loli.net/2020/07/15/8g7sSu2bFD31nEO.png" style="zoom:40%"/>
+
+<center>Figure 5:The word cloud of Machine Learning.</center>
+
 
 ## The Paper List
 
@@ -371,7 +294,7 @@ In addition, we generate the word cloud to show the hot topics in these surveys 
 
     *Xuhui Fan, Bin Li, Ling Luo, Scott A. Sisson*
 
-#### [Classification,Clustering,Regression](#content)
+#### [Classification Clustering and Regression](#content)
 
 1. **A Survey of Classification Techniques in the Area of Big Data.** CoRR 2015 [paper](https://arxiv.org/abs/1503.07477)
 
@@ -1110,7 +1033,7 @@ Zhiyuan Liu*
 
     *Tianxing Wu, Guilin Qi, Cheng Li, Meng Wang*
 
-#### [Language Grounding to Vision, Robotics and Beyond](#content)
+#### [Language Grounding to Vision and Robotics and Beyond](#content)
 
 1. **Emotionally-Aware Chatbots: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1906.09774)
 
@@ -1120,7 +1043,7 @@ Zhiyuan Liu*
 
     *Aditya Mogadala, Marimuthu Kalimuthu, Dietrich Klakow*
 
-#### [Linguistic Theories, Cognitive Modeling and Psycholinguistics](#content)
+#### [Linguistic Theories and Cognitive Modeling and Psycholinguistics](#content)
 
 1. **Modeling Language Variation and Universals: A Survey on Typological Linguistics for Natural Language Processing.** Comput. Linguistics 45(3) 2019 [paper](https://arxiv.org/abs/1807.00914)
 
@@ -1738,7 +1661,7 @@ Zhiyuan Liu*
 
     *Jessa Bekker, Jesse Davis*
 
-#### [Sentiment Analysis, Stylistic Analysis, and Argument Mining](#content)
+#### [Sentiment Analysis and Stylistic Analysis and Argument Mining](#content)
 
 1. **Semantic search on text and knowledge bases.** Foundations and trends in information retrieval 2016 [paper](https://www.researchgate.net/profile/Hannah_Bast/publication/304364705_Semantic_Search_on_Text_and_Knowledge_Bases/links/594a4734aca2723195de48df/Semantic-Search-on-Text-and-Knowledge-Bases.pdf)
 
@@ -1872,7 +1795,7 @@ Zhiyuan Liu*
 
     *Shen Gao, Xiuying Chen, Zhaochun Ren, Dongyan Zhao, Rui Yan*
 
-#### [Syntax: Tagging, Chunking, Syntax and Parsing](#content)
+#### [Tagging and Chunking and Syntax and Parsing](#content)
 
 1. **A Neural Entity Coreference Resolution Review.** arXiv 2019 [paper](https://arxiv.org/abs/1910.09329)
 
@@ -1978,3 +1901,4 @@ Please feel free to contact us (email???) if you have any questions.
 We would like to thank the people who contributed to this project. They are
 
 XXXXX
+
