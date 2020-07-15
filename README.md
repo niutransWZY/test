@@ -8,160 +8,58 @@ In this document, we survey hundreds of survey papers on Natural Language  Proce
 
 ## Categorization
 
-We follow the ACL and ICML submission guideline of recent years, covering a broad range of areas in NLP and ML. The categorization is (Table 1-2):
+We follow the ACL and ICML submission guideline of recent years, covering a broad range of areas in NLP and ML. The categorization is as follows:
 + NLP
-    + <a href="#machine-learning-for-nlp">Machine Learning for NLP</a>
-    + <a href="#machine-translation">Machine Translation</a>
-    + <a href="#sentiment-analysis-and-stylistic-analysis-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a>
-    + <a href="#nlp-applications">NLP Applications</a>
-    + <a href="#information-extraction">Information Extraction</a>
+    + <a href="#computational-social-science-and-social-media">Computational Social Science and Social Media</a>
     + <a href="#dialogue-and-interactive-systems">Dialogue and Interactive Systems</a>
     + <a href="#generation">Generation</a>
+    + <a href="#information-extraction">Information Extraction</a>
+    + <a href="#information-retrieval-and-text-mining">Information Retrieval and Text Mining</a>
+    + <a href="#interpretability-and-analysis-of-models-for-nLP">Interpretability and Analysis of Models for NLP</a>
+    + <a href="#knowledge-graph">Knowledge Graph</a>
+    + <a href="#language-grounding-to-vision-and-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a>
+    + <a href="#linguistic-theories-and-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a>
+    + <a href="#machine-learning-for-nlp">Machine Learning for NLP</a>
+    + <a href="#machine-translation">Machine Translation</a>
+    + <a href="#natural-language-processing">Natural Language Processing</a>
+    + <a href="#ner">NER</a>
+    + <a href="#nlp-applications">NLP Applications</a>
+    + <a href="#question-answering">Question Answering</a>
+    + <a href="#reading-comprehension">Reading Comprehension</a>
     + <a href="#recommender-systems">Recommender Systems</a>
     + <a href="#resources-and-evaluation">Resources and Evaluation</a>
+    + <a href="#semantics">Semantics</a>
+    + <a href="#sentiment-analysis-and-stylistic-analysis-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a>
     + <a href="#speech-and-multimodality">Speech and Multimodality</a>
     + <a href="#summarization">Summarization</a>
-    + <a href="#question-answering">Question Answering</a>
-    + <a href="#knowledge-graph">Knowledge Graph</a>
-    + <a href="#interpretability-and-analysis-of-models-for-nLP">Interpretability and Analysis of Models for NLP</a>
-    + <a href="#ner">NER</a>
-    + <a href="#reading-comprehension">Reading Comprehension</a>
-    + <a href="#natural-language-processing">Natural Language Processing</a>
-    + <a href="#text-classification">Text Classification</a>
-    + <a href="#information-retrieval-and-text-mining">Information Retrieval and Text Mining</a>
     + <a href="#tagging-and-chunking-and-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a>
-    + <a href="#semantics">Semantics</a>
-    + <a href="#linguistic-theories-and-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a>
-    + <a href="#language-grounding-to-vision-and-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a>
-    + <a href="#computational-social-science-and-social-media">Computational Social Science and Social Media</a>
+    + <a href="#text-classification">Text Classification</a>
 + Machine Learning
-    + <a href="#general-machine-learning">General Machine Learning</a>
+    + <a href="#architectures">Architectures</a>
+    + <a href="#automl">AutoML</a>
+    + <a href="#bayesian-methods">Bayesian Methods</a>
+    + <a href="#classification-clustering-and-regression">Classification,Clustering,Regression</a>
+    + <a href="#curriculum-learning">Curriculum Learning</a>
+    + <a href="#data-augmentation">Data Augmentation</a>
     + <a href="#deep-learning">Deep Learning</a>
+    + <a href="#deep-reinforcement-learning">Deep Reinforcement Learning</a>
+    + <a href="#federated-learning">Federated Learning</a>
+    + <a href="#few-shot-and-zero-shot-learning">Few-Shot and Zero-Shot Learning</a>
+    + <a href="#general-machine-learning">General Machine Learning</a>
+    + <a href="#generative-adversarial-networks">Generative Adversarial Networks</a>
     + <a href="#graph-neural-networks">Graph Neural Networks</a>
     + <a href="#interpretability-and-analysis">Interpretability and Analysis</a>
-    + <a href="#architectures">Architectures</a>
-    + <a href="#ml-applications">ML Applications</a>
-    + <a href="#deep-reinforcement-learning">Deep Reinforcement Learning</a>
-    + <a href="#transfer-learning">Transfer Learning</a>
-    + <a href="#generative-adversarial-networks">Generative Adversarial Networks</a>
-    + <a href="#optimization">Optimization</a>
-    + <a href="#multi-task-and-multi-view-learning">Multi-Task and Multi-View Learning</a>
-    + <a href="#automl">AutoML</a>
-    + <a href="#classification-clustering-and-regression">Classification,Clustering,Regression</a>
-    + <a href="#model-compression-and-acceleration">Model Compression and Acceleration</a>
-    + <a href="#data-augmentation">Data Augmentation</a>
-    + <a href="#few-shot-and-zero-shot-learning">Few-Shot and Zero-Shot Learning</a>
-    + <a href="#semi-supervised-and-unsupervised-learning">Semi-Supervised and Unsupervised Learning</a>
-    + <a href="#bayesian-methods">Bayesian Methods</a></td>
-    + <a href="#federated-learning">Federated Learning</a>
-    + <a href="#online-learning">Online Learning</a>
     + <a href="#meta-learning">Meta Learning</a>
-    + <a href="#curriculum-learning">Curriculum Learning</a>
-    + <a href="#trustworthy-machine-learning">Trustworthy Machine Learning</a>
     + <a href="#metric-learning">Metric Learning</a>
+    + <a href="#ml-applications">ML Applications</a>
+    + <a href="#model-compression-and-acceleration">Model Compression and Acceleration</a>
+    + <a href="#multi-task-and-multi-view-learning">Multi-Task and Multi-View Learning</a>
+    + <a href="#online-learning">Online Learning</a>
+    + <a href="#optimization">Optimization</a>
+    + <a href="#semi-supervised-and-unsupervised-learning">Semi-Supervised and Unsupervised Learning</a>
+    + <a href="#transfer-learning">Transfer Learning</a>
+    + <a href="#trustworthy-machine-learning">Trustworthy Machine Learning</a>
 
-<table>
-<tr>
-    <td>NLP</td>
-    <td>Machine Learning</td>
-</tr>
-<tr>
-    <td><a href="#machine-learning-for-nlp">Machine Learning for NLP</a></td>
-    <td><a href="#general-machine-learning">General Machine Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#machine-translation">Machine Translation</a></td>
-    <td><a href="#deep-learning">Deep Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#sentiment-analysis-and-stylistic-analysis-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a></td>
-    <td><a href="#graph-neural-networks">Graph Neural Networks</a></td>
-</tr>
-<tr>
-    <td><a href="#nlp-applications">NLP Applications</a></td>
-    <td><a href="#interpretability-and-analysis">Interpretability and Analysis</a></td>
-</tr>
-<tr>
-    <td><a href="#information-extraction">Information Extraction</a></td>
-    <td><a href="#architectures">Architectures</a></td>
-</tr>
-<tr>
-    <td><a href="#dialogue-and-interactive-systems">Dialogue and Interactive Systems</a></td>
-    <td><a href="#ml-applications">ML Applications</a></td>
-</tr>
-<tr>
-    <td><a href="#generation">Generation</a></td>
-    <td><a href="#deep-reinforcement-learning">Deep Reinforcement Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#recommender-systems">Recommender Systems</a></td>
-    <td><a href="#transfer-learning">Transfer Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#resources-and-evaluation">Resources and Evaluation</a></td>
-    <td><a href="#generative-adversarial-networks">Generative Adversarial Networks</a></td>
-</tr>
-<tr>
-    <td><a href="#speech-and-multimodality">Speech and Multimodality</a></td>
-    <td><a href="#automl">AutoML</a></td>
-<tr>
-    <td><a href="#summarization">Summarization</a></td>
-    <td><a href="#classification-clustering-and-regression">Classification,Clustering,Regression</a></td>
-</tr>
-<tr>
-    <td><a href="#question-answering">Question Answering</a></td>
-    <td><a href="#model-compression-and-acceleration">Model Compression and Acceleration</a></td>
-</tr>
-<tr>
-    <td><a href="#knowledge-graph">Knowledge Graph</a></td>
-    <td><a href="#data-augmentation">Data Augmentation</a></td>
-</tr>
-<tr>
-    <td><a href="#interpretability-and-analysis-of-models-for-nLP">Interpretability and Analysis of Models for NLP</a></td>
-    <td><a href="#few-shot-and-zero-shot-learning">Few-Shot and Zero-Shot Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#ner">NER</a></td>
-    <td><a href="#semi-supervised-and-unsupervised-learning">Semi-Supervised and Unsupervised Learning</a></td>
-<tr>
-    <td><a href="#reading-comprehension">Reading Comprehension</a></td>
-    <td><a href="#bayesian-methods">Bayesian Methods</a></td>
-</tr>
-<tr>
-    <td><a href="#natural-language-processing">Natural Language Processing</a></td>
-    <td><a href="#federated-learning">Federated Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#text-classification">Text Classification</a></td>
-    <td><a href="#online-learning">Online Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#information-retrieval-and-text-mining">Information Retrieval and Text Mining</a></td>
-    <td><a href="#meta-learning">Meta Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#tagging-and-chunking-and-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a></td>
-    <td><a href="#curriculum-learning">Curriculum Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#semantics">Semantics</a></td>
-    <td><a href="#trustworthy-machine-learning">Trustworthy Machine Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#linguistic-theories-and-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a></td>
-    <td><a href="#metric-learning">Metric Learning</a></td>
-</tr>
-<tr>
-    <td><a href="#language-grounding-to-vision-and-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a></td>
-    <td><a href="#graph-neural-networks">Graph Neural Networks</a></td>
-</tr>
-<tr>
-    <td><a href="#computational-social-science-and-social-media">Computational Social Science and Social Media</a></td>
-    <td><a href="#graph-neural-networks">Graph Neural Networks</a></td>
-</tr>
-</table>
-
-<center>Table 2</center>
 
 To reduce class imbalance, we separate some of the hot sub-topics from the original categorization of ACL and ICML submissions. E.g., NER is a first-level area in our categorization because it is the focus of several surveys.
 
@@ -171,304 +69,36 @@ We order the areas by paper number (see Figure 1).
 
 <img src="https://i.loli.net/2020/07/15/ItnlZ9BzYjOudEh.png" style="zoom:50%" />
 
-<center>Figure 1:The number of different areas of survey papers in the NLP.</center>
+<p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
 
 <img src="https://i.loli.net/2020/07/15/INycvlqoQTER9WU.png" style="zoom:50%" />
 
-<center>Figure 2:The number of different areas of survey papers in the Machine Learning.</center>
+<p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
 
 Also, we plot paper number as a function of publication year (see Figures 2).
 
-<img src="https://i.loli.net/2020/07/15/QuFVAyzHG8l1MUN.png" style="zoom:50%"/>
-
-<center>Figure 3:The trend in the number of survery articles over the years.</center>
-
 <img src="https://i.loli.net/2020/07/15/xGQJKnyaTbtDYi6.png" style="zoom:50%"/>
 
-<center>Figure 3:The trend in the number of survery articles over the years.</center>
+<p align="center">Figure 3:The trend in the number of survery articles over the years.</p>
 
-In addition, we generate the word cloud to show the hot topics in these surveys (see Figures 4-5).
+In addition, we generate the word cloud to show the hot topics in these surveys (see Figures 3).
 
 <img src="https://i.loli.net/2020/07/15/Klfq2eLEBrW1sAH.png" style="zoom:40%"/>
 
-<center>Figure 4:The word cloud of NLP.</center>
+<p align="center">Figure 4:The word cloud of NLP.</p>
 
 <img src="https://i.loli.net/2020/07/15/8g7sSu2bFD31nEO.png" style="zoom:40%"/>
 
-<center>Figure 5:The word cloud of Machine Learning.</center>
+<p align="center">Figure 5:The word cloud of Machine Learning.</p>
 
 
-## The Paper List
-
-#### [Architectures](#content)
-
-1. **Recent Advances in Convolutional Neural Networks.** Pattern Recognition 2018 [paper](https://arxiv.org/abs/1512.07108v3)
-
-    *Jiuxiang Gu, Zhenhua Wang, Jason Kuen, Lianyang Ma, Amir Shahroudy, Bing Shuai, Ting Liu, Xingxing Wang, Gang Wang, Jianfei Cai, Tsuhan Chen*
-
-1. **Deep Echo State Network (DeepESN): A Brief Survey.** arxiv 2017 [paper](https://arxiv.org/abs/1712.04323)
-
-    *Claudio Gallicchio, Alessio Micheli*
-
-1. **Non-local Neural Networks.** CVPR 2018 [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.html)
-
-    *Xiaolong Wang, Ross B. Girshick, Abhinav Gupta, Kaiming He*
-
-1. **Binary Neural Networks: A Survey.** Pattern Recognit. 2020 [paper](https://arxiv.org/abs/2004.03333)
-
-    *Haotong Qin, Ruihao Gong, Xianglong Liu, Xiao Bai, Jingkuan Song, Nicu Sebe*
-
-1. **Sum-product networks: A survey.** arxiv 2020 [paper](https://arxiv.org/abs/2004.01167)
-
-    *Iago París, Raquel Sánchez-Cauce, Francisco Javier Díez*
-
-1. **An Attentive Survey of Attention Models.** arxiv 2019 [paper](https://arxiv.org/abs/1904.02874)
-
-    *Sneha Chaudhari, Gungor Polatkan, Rohan Ramanath, Varun Mithal*
-
-1. **A Survey on Latent Tree Models and Applications.** Journal of Artificial Intelligence Research 2013 [paper](https://arxiv.org/abs/1402.0577)
-
-    *Raphaël Mourad, Christine Sinoquet, Nevin L. Zhang, Tengfei Liu, Philippe Leray*
-
-1. **Neural Module Networks.** CVPR 2016 [paper](https://ieeexplore.ieee.org/document/7780381)
-
-    *Jacob Andreas, Marcus Rohrbach, Trevor Darrell, D Klein*
-
-1. **A Survey of End-to-End Driving: Architectures and Training Methods.** arXiv 2020 [paper](https://arxiv.org/abs/2003.06404)
-
-    *Ardi Tampuu, Maksym Semikin, Naveed Muhammad, Dmytro Fishman, Tambet Matiisen*
-
-1. **A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects.** arxiv 2020 [paper](https://arxiv.org/abs/2004.02806)
-
-    *Zewen Li, Wenjie Yang, Shouheng Peng, Fan Liu*
-
-1. **Survey on the attention based RNN model and its applications in computer vision.** arxiv 2016 [paper](https://arxiv.org/abs/1601.06823)
-
-    *Feng Wang, David M. J. Tax*
-
-1. **Understanding LSTM -- a tutorial into Long Short-Term Memory Recurrent Neural Networks.** arxiv 2019 [paper](https://arxiv.org/abs/1909.09586)
-
-    *Ralf C. Staudemeyer, Eric Rothstein Morris*
-
-#### [AutoML](#content)
-
-1. **A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions.** arxiv 2020 [paper](https://arxiv.org/abs/2006.02903)
-
-    *Pengzhen Ren, Yun Xiao, Xiaojun Chang, Po-Yao Huang, Zhihui Li, Xiaojiang Chen, Xin Wang*
-
-1. **A Survey on Neural Architecture Search.** arxiv 2019 [paper](https://arxiv.org/abs/1905.01392)
-
-    *Martin Wistuba, Ambrish Rawat, Tejaswini Pedapati*
-
-1. **Benchmark and Survey of Automated Machine Learning Frameworks.** arxiv 2020 [paper](https://arxiv.org/abs/1904.12054)
-
-    *Marc-André Zöller, Marco F. Huber*
-
-1. **Neural Architecture Search: A Survey.** Journal of Machine Learning Research 2019 [paper](https://arxiv.org/abs/1808.05377)
-
-    *Thomas Elsken, Jan Hendrik Metzen, Frank Hutter*
-
-1. **AutoML: A Survey of the State-of-the-Art.** arxiv 2019 [paper](https://arxiv.org/abs/1908.00709)
-
-    *Xin He, Kaiyong Zhao, Xiaowen Chu*
-
-1. **Neural Architecture Search at CVPR 2019.** CVPR 2019  [paper](https://drsleep.github.io/review/NAS-at-CVPR-2019/)
-
-    *Vladimir Nekrasov*
-
-1. **Benchmark and Survey of Automated Machine Learning Frameworks.** arXiv 2019 [paper](https://arxiv.org/abs/1904.12054)
-
-    *Marc-André Zöller, Marco F. Huber*
-
-#### [Bayesian Methods](#content)
-
-1. **Towards Bayesian Deep Learning: A Survey.** arxiv 2016 [paper](https://arxiv.org/abs/1604.01662)
-
-    *Hao Wang, Dityan Yeung*
-
-1. **A survey of non-exchangeable priors for Bayesian nonparametric models.** IEEE 2015 [paper](https://arxiv.org/abs/1211.4798)
-
-    *Nicholas J. Foti, Sinead Williamson*
-
-1. **Bayesian Nonparametric Space Partitions: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2002.11394)
-
-    *Xuhui Fan, Bin Li, Ling Luo, Scott A. Sisson*
-
-#### [Classification Clustering and Regression](#content)
-
-1. **A Survey of Classification Techniques in the Area of Big Data.** CoRR 2015 [paper](https://arxiv.org/abs/1503.07477)
-
-    *Praful Koturwar, Sheetal Girase, Debajyoti Mukhopadhyay*
-
-1. **Deep learning for time series classification: a review.** arXiv 2019 [paper](https://arxiv.org/abs/1809.04356)
-
-    *Hassan Ismail Fawaz, Germain Forestier, Jonathan Weber, Lhassane Idoumghar, Pierre-Alain Muller*
-
-1. **How Complex is your classification problem? A survey on measuring classification complexity.** ACM Comput. Surv. 52(5) 2019 [paper](https://arxiv.org/abs/1808.03591)
-
-    *Ana Carolina Lorena, Luis P F Garcia, Jens Lehmann, Marcilio C P Souto, Tin K Ho*
-
-1. **A Survey on Multi-View Clustering.** CoRR 2017 [paper](https://arxiv.org/abs/1712.06246)
-
-    *Guoqing Chao, Shiliang Sun, Jinbo Bi*
-
-1. **A Survey of Constrained Gaussian Process Regression: Approaches and Implementation Challenges.** arxiv 2020 [paper](https://arxiv.org/abs/2006.09319)
-
-    *Laura P. Swiler, Mamikon Gulian, Ari Frankel, Cosmin Safta, John D. Jakeman*
+## The Paper List of NLP
 
 #### [Computational Social Science and Social Media](#content)
 
 1. **Computational Sociolinguistics: A Survey.** Computational Linguistics 2016 [paper](https://arxiv.org/abs/1508.07544)
 
     *Dong Nguyen, A Seza Dogruoz, Carolyn Penstein Rose, Franciska De Jong*
-
-#### [Curriculum Learning](#content)
-
-1. **Automatic Curriculum Learning For Deep RL: A Short Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2003.04664)
-
-    *Rémy Portelas, Cédric Colas, Lilian Weng, Katja Hofmann, Pierre-Yves Oudeyer*
-
-1. **Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey.** arXIv 2020 [paper](https://arxiv.org/abs/2003.04960)
-
-    *Sanmit Narvekar, Bei Peng, Matteo Leonetti, Jivko Sinapov, Matthew E. Taylor, Peter Stone*
-
-#### [Data Augmentation](#content)
-
-1. **A survey on Image Data Augmentation for Deep Learning.** Journal of Big Data 2019 [paper](https://link.springer.com/article/10.1186/s40537-019-0197-0)
-
-    *Connor Shorten*
-
-1. **A Visual Survey of Data Augmentation in NLP.** not found  [paper]()
-
-    *Amit Chaudhary*
-
-1. **Time Series Data Augmentation for Deep Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2002.12478)
-
-    *Qingsong Wen, Liang Sun, Xiaomin Song, Jingkun Gao, Xue Wang, Huan Xu*
-
-1. **EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks.** arxiv 2019 [paper](https://arxiv.org/abs/1901.11196)
-
-    *Jason Wei, Kai Zou*
-
-#### [Deep Learning](#content)
-
-1. **Survey of Dropout Methods for Deep Neural Networks.** arxiv 2019 [paper](https://arxiv.org/abs/1904.13310)
-
-    *Alex Labach, Hojjat Salehinejad, Shahrokh Valaee*
-
-1. **Deep Learning on Graphs: A Survey.** arxiv 2018 [paper](https://arxiv.org/abs/1812.04202)
-
-    *Ziwei Zhang, Peng Cui, Wenwu Zhu*
-
-1. **The History Began from AlexNet: A Comprehensive Survey on Deep Learning Approaches.** arxiv 2018 [paper](https://arxiv.org/abs/1803.01164)
-
-    *Zahangir Alom, Tarek M Taha, Christopher Yakopcic, Stefan Westberg, Paheding Sidike, Mst Shamima Nasrin, Brian C Van Esesn, Abdul A S Awwal, Vijayan K Asari*
-
-1. **Geometric Deep Learning: Going beyond Euclidean data.** IEEE/CoRR 2016 [paper](https://arxiv.org/abs/1611.08097)
-
-    *Michael M. Bronstein, Joan Bruna, Yann LeCun, Arthur Szlam, Pierre Vandergheynst*
-
-1. **Neural Message Passing for Quantum Chemistry.** ICML/CoRR 2017 [paper](https://arxiv.org/abs/1704.01212)
-
-    *Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl*
-
-1. **A survey on modern trainable activation functions.** arxiv 2020 [paper](https://arxiv.org/abs/2005.00817)
-
-    *Andrea Apicella, Francesco Donnarumma, Francesco Isgrò, Roberto Prevete*
-
-1. **Foundations of Sequence-to-Sequence Modeling for Time Series.** AISTATS 2018 [paper](https://arxiv.org/abs/1805.03714)
-
-    *Vitaly Kuznetsov, Zelda Mariet*
-
-1. **A Survey of Neuromorphic Computing and Neural Networks in Hardware.** CoRR 2017 [paper](https://arxiv.org/abs/1705.06963)
-
-    *Catherine D. Schuman, Thomas E. Potok, Robert M. Patton, J. Douglas Birdwell, Mark E. Dean, Garrett S. Rose, James S. Plank*
-
-1. **Survey of reasoning using Neural networks.** CoRR 2017 [paper](https://arxiv.org/abs/1702.06186)
-
-    *Amit Sahu*
-
-1. **Convergence of Edge Computing and Deep Learning: A Comprehensive Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1907.08349?context=cs.NI)
-
-    *Xiaofei Wang, Yiwen Han, Victor C.M. Leung, Dusit Niyato, Xueqiang Yan, Xu Chen*
-
-1. **A Survey on Deep Hashing Methods.** arXiv 2020 [paper](https://arxiv.org/abs/2003.03369)
-
-    *Xiao Luo, Chong Chen, Huasong Zhong, Hao Zhang, Minghua Deng, Jianqiang Huang, Xiansheng Hua*
-
-1. **The Deep Learning Compiler: A Comprehensive Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2002.03794)
-
-    *Mingzhen Li, Yi Liu, Xiaoyan Liu, Qingxiao Sun, Xin You, Hailong Yang, Zhongzhi Luan, Depei Qian*
-
-1. **Improving Deep Learning Models via Constraint-Based Domain Knowledge: a Brief Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2005.10691)
-
-    *Andrea Borghesi, Federico Baldo, Michela Milano*
-
-1. **Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective.** arXiv 2019 [paper](https://arxiv.org/abs/1908.10920)
-
-    *Guan-Horng Liu, Evangelos A. Theodorou*
-
-1. **Review: Ordinary Differential Equations For Deep Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1911.00502)
-
-    *Xinshi Chen*
-
-1. **Time Series Forecasting With Deep Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2004.13408)
-
-    *Bryan Lim, Stefan Zohren*
-
-1. **Survey of Expressivity in Deep Neural Networks.** arxiv 2016 [paper](https://arxiv.org/abs/1611.08083)
-
-    *Maithra Raghu, Ben Poole, Jon Kleinberg, Surya Ganguli, Jascha Sohldickstein*
-
-1. **Deep learning.** nature 2015 [paper](https://www.nature.com/articles/nature14539)
-
-    *Yann LeCun*
-
-#### [Deep Reinforcement Learning](#content)
-
-1. **Feature-Based Aggregation and Deep Reinforcement Learning: A Survey and Some New Implementations.** IEEE 2019 [paper](https://arxiv.org/abs/1804.04577)
-
-    *Dimitri P. Bertsekas*
-
-1. **A Brief Survey of Deep Reinforcement Learning.** arxiv 2017 [paper](https://arxiv.org/abs/1708.05866)
-
-    *Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil A Bharath*
-
-1. **Deep Reinforcement Learning: An Overview.** arxiv 2017 [paper](https://arxiv.org/abs/1701.07274)
-
-    *Yuxi Li*
-
-1. **A Short Survey on Probabilistic Reinforcement Learning.** arxiv 2019 [paper](https://arxiv.org/abs/1901.07010)
-
-    *Reazul Hasan Russel*
-
-1. **A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress.** CoRR 2018 [paper](https://arxiv.org/abs/1806.06877)
-
-    *Saurabh Arora, Prashant Doshi*
-
-1. **A Survey of Reinforcement Learning Informed by Natural Language.** IJCAI 2019 [paper](https://arxiv.org/abs/1906.03926)
-
-    *Jelena Luketina, Nantas Nardelli, Gregory Farquhar, Jakob N. Foerster, Jacob Andreas, Edward Grefenstette, Shimon Whiteson, Tim Rocktäschel*
-
-1. **A Survey of Reinforcement Learning Algorithms for Dynamically Varying Environments.** arXiv 2020 [paper](https://arxiv.org/abs/2005.10619)
-
-    *Sindhu Padakandla*
-
-1. **A Short Survey On Memory Based Reinforcement Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1904.06736v1)
-
-    *Dhruv Ramani*
-
-1. **A Survey of Reinforcement Learning Techniques: Strategies, Recent Development, and Future Directions.** arXiv 2020 [paper](https://arxiv.org/abs/2001.06921)
-
-    *Amit Kumar Mondal*
-
-1. **A survey on intrinsic motivation in reinforcement learning.** arXiv 2019 [paper](https://arxiv.org/abs/1908.06976)
-
-    *Aubret, Arthur，Matignon, Laetitia，Hassas, Salima*
-
-1. **A Survey on Reproducibility by Evaluating Deep Reinforcement Learning Algorithms on Real-World Robots.** arXiv 2019 [paper](https://arxiv.org/abs/1909.03772)
-
-    *Nicolai A. Lynnerup, Laura Nolling, Rasmus Hasle, John Hallam*
 
 #### [Dialogue and Interactive Systems](#content)
 
@@ -520,200 +150,6 @@ In addition, we generate the word cloud to show the hot topics in these surveys 
 
     *Longxuan Ma, Wei-Nan Zhang, Mingda Li, Ting Liu*
 
-#### [Federated Learning](#content)
-
-1. **Towards Utilizing Unlabeled Data in Federated Learning: A Survey and Prospective.** arXiv 2020 [paper](https://arxiv.org/abs/2002.11545v2)
-
-    *Yilun Jin, Xiguang Wei, Yang Liu, Qiang Yang*
-
-1. **Threats to Federated Learning: A Survey.** CoRL 2019 2020 [paper](https://arxiv.org/abs/2003.02133)
-
-    *Lingjuan Lyu, Han Yu, Qiang Yang*
-
-1. **A Survey towards Federated Semi-supervised Learning.** FRUCT 2020 [paper](https://arxiv.org/abs/2002.11545v1)
-
-    *Yilun Jin, Xiguang Wei, Yang Liu, Qiang Yang*
-
-#### [Few-Shot and Zero-Shot Learning](#content)
-
-1. **Generalizing from a Few Examples: A Survey on Few-Shot Learning.** arxiv 2019 [paper](https://arxiv.org/abs/1904.05046)
-
-    *Yaqing Wang, Quanming Yao, James Kwok, Lionel M. Ni*
-
-1. **Few-shot Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1904.05046v1)
-
-    *Yaqing Wang, Quanming Yao*
-
-1. **A survey on Zero-shot learning.** Journal of science  [paper]()
-
-    *Fengyi Song*
-
-1. **A Survey of Zero-Shot Learning: Settings, Methods, and Applications.** ACM Journals 2019 [paper](https://dl.acm.org/doi/10.1145/3293318)
-
-    *Wei Wang,Vincent W. Zheng,Han Yu,Chunyan Miao*
-
-#### [General Machine Learning](#content)
-
-1. **Ensembling Neural Networks: Many Could Be Better than All.** Artificial Intelligence 2002 [paper](https://doi.org/10.1016/S0004-3702(02)00190-X)
-
-    *Zhihua Zhou, Jianxin Wu, Wei Tang*
-
-1. **Advances and Open Problems in Federated Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1912.04977)
-
-    *Peter Kairouz, H Brendan Mcmahan, Brendan Avent, Aurelien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Keith Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael G L Doliveira, Salim El Rouayheb, David Evans, Josh Gardner, Zachary A Garrett, Adria Gascon, Badih Ghazi, Phillip B Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub Konecný, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, Tancrede Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer Ozgur, Rasmus Pagh, Mariana Raykova, Hang Qi, Daniel Ramage, Ramesh Raskar, Dawn Song, Weikang Song, Sebastian U Stich, Ziteng Sun, Ananda Theertha Suresh, Florian Tramer, Praneeth Vepakomma, Jianyu Wang, Li Xiong, Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao*
-
-1. **Relational inductive biases, deep learning, and graph networks.** CoRR 2018 [paper](http://arxiv.org/abs/1806.01261)
-
-    *Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinícius Flores Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Çaglar Gülçehre, H. Francis Song, Andrew J. Ballard, Justin Gilmer, George E. Dahl, Ashish Vaswani, Kelsey R. Allen, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matthew Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu*
-
-1. **A Survey on Graph Kernels.** Applied Network Science 2020 [paper](https://arxiv.org/abs/1903.11835)
-
-    *Nils M. Kriege, Fredrik D. Johansson, Christopher Morris*
-
-1. **Algorithms Inspired by Nature: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1903.01893)
-
-    *Pranshu Gupta*
-
-1. **Deep Tree Transductions - A Short Survey.** INNSBDDL 2019 [paper](https://arxiv.org/abs/1902.01737)
-
-    *Davide Bacciu, Antonio Bruno*
-
-1. **A Survey on Multi-output Learning.** CoRR 2019 [paper](https://arxiv.org/abs/1901.00248)
-
-    *Donna Xu, Yaxin Shi, Ivor W. Tsang, Yew-Soon Ong, Chen Gong, Xiaobo Shen*
-
-1. **A Survey on Data Collection for Machine Learning: a Big Data -- AI Integration Perspective.** CoRR 2018 [paper](https://arxiv.org/abs/1811.03402)
-
-    *Yuji Roh, Geon Heo, Steven Euijong Whang*
-
-1. **Verification for Machine Learning, Autonomy, and Neural Networks Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1810.01989)
-
-    *Weiming Xiang, Patrick Musau, Ayana A. Wild, Diego Manzanas Lopez, Nathaniel Hamilton, Xiaodong Yang, Joel Rosenfeld, Taylor T. Johnson*
-
-1. **A Survey on Surrogate Approaches to Non-negative Matrix Factorization.** CoRR 2018 [paper](https://arxiv.org/abs/1808.01975)
-
-    *Pascal Fernsel, Peter Maass*
-
-1. **The Benefits of Population Diversity in Evolutionary Algorithms: A Survey of Rigorous Runtime Analyses.** CoRR 2018 [paper](https://arxiv.org/abs/1801.10087)
-
-    *Dirk Sudholt*
-
-1. **A Survey on Resilient Machine Learning.** CoRR 2017 [paper](https://arxiv.org/abs/1707.03184)
-
-    *Atul Kumar, Sameep Mehta*
-
-1. **Machine Learning with World Knowledge: The Position and Survey.** CoRR 2017 [paper](https://arxiv.org/abs/1705.02908)
-
-    *Yangqiu Song, Dan Roth*
-
-1. **A survey on feature weighting based K-Means algorithms.** Journal of Classification 2016 [paper](https://arxiv.org/abs/1601.03483)
-
-    *Renato Cordeiro de Amorim*
-
-1. **Survey on Feature Selection.** CoRR 2015 [paper](https://arxiv.org/abs/1510.02892)
-
-    *Tarek Amr Abdallah, Beatriz de La Iglesia*
-
-1. **A Survey of Predictive Modelling under Imbalanced Distributions.** CoRR 2015 [paper](https://arxiv.org/abs/1505.01658)
-
-    *Paula Branco, Luis Torgo, Rita Ribeiro*
-
-1. **Hierarchical Mixtures-of-Experts for Exponential Family Regression Models with Generalized Linear Mean Functions: A Survey of Approximation and Consistency Results.** CoRR 2013 [paper](https://arxiv.org/abs/1301.7390)
-
-    *Wenxin Jiang, Martin A. Tanner*
-
-1. **Survey on Five Tribes of Machine Learning and the Main Algorithms.** Software Guide 2019 [paper](http://en.cnki.com.cn/Article_en/CJFDTotal-RJDK201907003.htm)
-
-    *LI Xu-ran，DING Xiao-hong*
-
-1. **Machine Learning in Network Centrality Measures: Tutorial and Outlook.** Association for Computing Machinery 2018 [paper](https://arxiv.org/abs/1810.11760)
-
-    *Felipe Grando, Lisandro Zambenedetti Granville, Luís C. Lamb*
-
-1. **Learning Representations of Graph Data -- A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1906.02989)
-
-    *Mital Kinderkhedia*
-
-1. **Hyperbox based machine learning algorithms: A comprehensive survey.** arxiv 2019 [paper](https://arxiv.org/abs/1901.11303)
-
-    *Thanh Tung Khuat, Dymitr Ruta, Bogdan Gabrys*
-
-1. **Machine Learning for Spatiotemporal Sequence Forecasting: A Survey.** arxiv 2018 [paper](https://arxiv.org/abs/1808.06865)
-
-    *Xingjian Shi, Dit-Yan Yeung*
-
-1. **Network Representation Learning: A Survey.** IEEE Trans. Big Data 2020 [paper](https://arxiv.org/abs/1801.05852)
-
-    *Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang*
-
-1. **Mean-Field Learning: a Survey.** arxiv 2012 [paper](https://arxiv.org/abs/1210.4657)
-
-    *Hamidou Tembine, Raúl Tempone, Pedro Vilanova*
-
-1. **Narrative Science Systems: A Review.** International Journal of Research 2015 [paper](https://arxiv.org/abs/1510.04420)
-
-    *Paramjot Kaur Sarao, Puneet Mittal, Rupinder Kaur*
-
-1. **A Tutorial on Network Embeddings.** arxiv 2018 [paper](https://arxiv.org/abs/1808.02590)
-
-    *Haochen Chen, Bryan Perozzi, Rami Al-Rfou, Steven Skiena*
-
-1. **Structure Learning of Probabilistic Graphical Models: A Comprehensive Survey.** arxiv 2011 [paper](https://arxiv.org/abs/1111.6925)
-
-    *Yang Zhou*
-
-1. **Statistical Queries and Statistical Algorithms: Foundations and Applications.** arxiv 2020 [paper](https://arxiv.org/abs/2004.00557)
-
-    *Lev Reyzin*
-
-1. **A survey of dimensionality reduction techniques.** arxiv 2014 [paper](https://arxiv.org/abs/1403.2877)
-
-    *C.O.S. Sorzano, J. Vargas, A. Pascual Montano*
-
-1. **Relational Representation Learning for Dynamic (Knowledge) Graphs: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1905.11485)
-
-    *Seyed Mehran Kazemi, Rishab Goel, Kshitij Jain, Ivan Kobyzev, Akshay Sethi, Peter Forsyth, Pascal Poupart*
-
-1. **Graph Representation Learning: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1909.00958)
-
-    *Fenxiao Chen, Yuncheng Wang, Bin Wang, C.-C. Jay Kuo*
-
-1. **Multi-Objective Multi-Agent Decision Making: A Utility-based Analysis and Survey.** Autonomous Agents and Multi-Agent Systems 2020 [paper](https://link.springer.com/content/pdf/10.1007/s10458-019-09433-x.pdf)
-
-    *Roxana Rădulescu, Patrick Mannion, Diederik M. Roijers, Ann Nowé *
-
-1. **Survey: Machine Learning in Production Rendering.** arXiv 2020 [paper](https://arxiv.org/abs/2005.12518v1)
-
-    *Shilin Zhu*
-
-1. **Machine Learning Testing: Survey, Landscapes and Horizons.** arXiv 2019 [paper](https://arxiv.org/abs/1906.10742v1)
-
-    *Jie M. Zhang (1), Mark Harman (1 and 2), Lei Ma (3), Yang Liu (4) ((1) University College London, (2) Facebook London, (3) Kyushu University, (4) Nanyang Technological University)*
-
-1. **Heuristic design of fuzzy inference systems: A review of three decades of research.** arXiv 2019 [paper](https://arxiv.org/abs/1908.10122)
-
-    *Varun Ojha, Ajith Abraham, Vaclav Snasel*
-
-1. **Imbalance Problems in Object Detection: A Review.** arXiv 2019 [paper](https://arxiv.org/abs/1909.00169)
-
-    *Kemal Oksuz, Baris Can Cam, Sinan Kalkan, Emre Akbas*
-
-1. **Machine Learning at the Network Edge: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1908.00080)
-
-    *M.G. Sarwar Murshed, Christopher Murphy, Daqing Hou, Nazar Khan, Ganesh Ananthanarayanan, Faraz Hussain*
-
-1. **Adversarial Examples in Modern Machine Learning: A Review.** arXiv 2019 [paper](https://arxiv.org/abs/1911.05268)
-
-    *Rey Reza Wiyatno, Anqi Xu, Ousmane Dia, Archy de Berker*
-
-1. **A Survey on Activation Functions and their relation with Xavier and He Normal Initialization.** arXiv 2020 [paper](https://arxiv.org/abs/2004.06632)
-
-    *Leonid Datta*
-
-1. **Unsupervised Cross-Lingual Representation Learning.** ACL 2019 [paper](https://www.aclweb.org/anthology/P19-4007.pdf)
-
-    *Sebastian Ruder, Anders Søgaard, Ivan Vulic*
-
 #### [Generation](#content)
 
 1. **A Survey on Neural Network Language Models.** arxiv 2019 [paper](https://arxiv.org/abs/1906.03591)
@@ -759,97 +195,6 @@ In addition, we generate the word cloud to show the hot topics in these surveys 
 1. **Neural Text Generation: Past, Present and Beyond.** CoRR 2018 [paper](https://arxiv.org/pdf/1803.07133.pdf)
 
     *Sidi Lu, Yaoming Zhu, Weinan Zhang, Jun Wang, Yong Yu*
-
-#### [Generative Adversarial Networks](#content)
-
-1. **Generative Adversarial Networks: A Survey and Taxonomy.** arxiv 2019 [paper](https://arxiv.org/abs/1906.01529)
-
-    *Zhengwei Wang, Qi She, Tomas E Ward*
-
-1. **生成式对抗网络GAN的研究进展与展望.** 自动化学报 2017 [paper](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2017&filename=MOTO201703001&v=MTE2NDViRzRIOWJNckk5RlpZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSN3FmWU9acUZDamhWcnpKS0NMZlk=)
-
-    *Kunfeng Wang, Gou Chao, Duan Yan-Jie, Lin Yilun*
-
-1. **A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications.** arXiv 2020 [paper](https://arxiv.org/abs/2001.06937)
-
-    *Jie Gui, Zhenan Sun, Yonggang Wen, Dacheng Tao, Jieping Ye*
-
-1. **Generative Adversarial Networks: An Overview.** IEEE Signal Processing Magazine 2018 [paper](https://arxiv.org/abs/1710.07035)
-
-    *Antonia Creswell, Tom White, Vincent Dumoulin, Kai Arulkumaran, Biswa Sengupta, Anil A Bharath*
-
-1. **How Generative Adversarial Nets and its variants Work: An Overview of GAN.** arxiv 2017 [paper](https://arxiv.org/abs/1711.05914v6)
-
-    *Yongjun Hong, Uiwon Hwang, Jaeyoon Yoo, Sungroh Yoon*
-
-1. **Stabilizing Generative Adversarial Networks: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1910.00927)
-
-    *Maciej Wiatrak, Stefano V. Albrecht, Andrew Nystrom*
-
-1. **A Survey on Generative Adversarial Networks: Variants, Applications, and Training.** arxiv 2020 [paper](https://arxiv.org/abs/2006.05132)
-
-    *Abdul Jabbar, Xi Li, Bourahla Omar*
-
-1. **Stabilizing Generative Adversarial Network Training: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1910.00927)
-
-    *Maciej Wiatrak, Stefano V. Albrecht, Andrew Nystrom*
-
-#### [Graph Neural Networks](#content)
-
-1. **Bridging the Gap between Spatial and Spectral Domains: A Survey on Graph Neural Networks.** arXiv 2020 [paper](https://arxiv.org/abs/2002.11867)
-
-    *Zhiqian Chen, Fanglan Chen, Lei Zhang, Taoran Ji, Kaiqun Fu, Liang Zhao, Feng Chen, Chang-Tien Lu*
-
-1. **Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective.** arXiv 2020 [paper](https://arxiv.org/abs/2003.00330)
-
-    *Luis C. Lamb, Artur Garcez, Marco Gori, Marcelo Prates, Pedro Avelar, Moshe Vardi*
-
-1. **Tackling Graphical NLP problems with Graph Recurrent Networks.** CoRR 2019 [paper](https://arxiv.org/abs/1907.06142)
-
-    *Linfeng Song*
-
-1. **Graph Neural Networks: A Review of Methods and Applications.** CoRR 2018 [paper](https://arxiv.org/abs/1812.08434)
-
-    *Maosong Sun，Zhengyan Zhang，
-Ganqu Cui ，Cheng Yang ，Jie Zhou ，
-Zhiyuan Liu*
-
-1. **Introduction to Graph Neural Networks.** IEEE 2020 [paper](https://ieeexplore.ieee.org/document/9048171)
-
-    *Zhiyuan Liu, Jie Zhou*
-
-1. **Adversarial Attack and Defense on Graph Data: A Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1812.10528)
-
-    *Lichao Sun, Ji Wang, Philip S. Yu, Bo Li*
-
-1. **Computational Capabilities of Graph Neural Networks.** IEEE 2009 [paper](https://ieeexplore.ieee.org/document/4703190)
-
-    *Franco Scarselli, Marco Gori, Ah Chung Tsoi, Markus Hagenbuchner, Gabriele Monfardini*
-
-1. **The Graph Neural Network Model.** IEEE 2009 [paper](https://ieeexplore.ieee.org/document/4700287)
-
-    *Franco Scarselli ; Marco Gori ; Ah Chung Tsoi ; Markus Hagenbuchner ; Gabriele Monfardini
-*
-
-1. **Benchmarking Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.00982)
-
-    *Vijay Prakash Dwivedi, Chaitanya K. Joshi, Thomas Laurent, Yoshua Bengio, Xavier Bresson*
-
-1. **A Survey on The Expressive Power of Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.04078)
-
-    *Ryoma Sato*
-
-1. **A Comprehensive Survey on Graph Neural Networks.** arxiv 2019 [paper](https://arxiv.org/abs/1901.00596)
-
-    *Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu*
-
-1. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey.** arxiv 2020 [paper](https://arxiv.org/abs/2005.07496)
-
-    *Joakim Skarding, Bogdan Gabrys, Katarzyna Musial*
-
-1. **Graph embedding techniques, applications, and performance: A survey.** Knowledge Based Systems 2017 [paper](https://arxiv.org/abs/1705.02801)
-
-    *Palash Goyal, Emilio Ferrara*
 
 #### [Information Extraction](#content)
 
@@ -922,60 +267,6 @@ Zhiyuan Liu*
 1. **Opinion Mining and Analysis: A survey.** CoRR 2013 [paper](https://arxiv.org/abs/1307.3336)
 
     *Arti Buche, M. B. Chandak, Akshay Zadgaonkar*
-
-#### [Interpretability and Analysis](#content)
-
-1. **Visual interpretability for deep learning: a survey.** Journal of Zhejiang University Science C 2018 [paper](https://arxiv.org/abs/1802.00614)
-
-    *Quanshi Zhang, Songchun Zhu*
-
-1. **Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.** Information Fusion 2020 [paper](https://www.arxiv-vanity.com/papers/1910.10045/)
-
-    *Alejandro Barredo Arrieta, Natalia Diazrodriguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gillopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera*
-
-1. **How Generative Adversarial Networks and Their Variants Work: An Overview.** ACM 2017 [paper](https://arxiv.org/abs/1711.05914)
-
-    *Yongjun Hong, Uiwon Hwang, Jaeyoon Yoo, Sungroh Yoon*
-
-1. **Foundations of Explainable Knowledge-Enabled Systems.** Knowledge Graphs for eXplainable Artificial Intelligence: Foundations, Applications and Challenges/CoRR 2020 [paper](https://arxiv.org/abs/2003.07520)
-
-    *Shruthi Chari*
-
-1. **Explainable Reinforcement Learning: A Survey.** CoRR 2020 [paper](https://arxiv.org/abs/2005.06247)
-
-    *Erika Puiutta, Eric M. S. P. Veith*
-
-1. **Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models.** Annual reviews 2014 [paper](http://pdfs.semanticscholar.org/d74b/5dae099fd87e17fc4167bf4d88d5a9261824.pdf)
-
-    *David M. Blei*
-
-1. **Visualisation of Pareto Front Approximation: A Short Survey and Empirical Comparisons.** CEC 2019 [paper](https://arxiv.org/abs/1903.01768)
-
-    *Huiru Gao, Haifeng Nie, Ke Li*
-
-1. **Survey & Experiment: Towards the Learning Accuracy.** CoRR 2010 [paper](https://arxiv.org/abs/1012.4051)
-
-    *Zeyuan Allen Zhu*
-
-1. **Causal Interpretability for Machine Learning -- Problems, Methods and Evaluation.** Sigkdd Explorations 2020 [paper](https://arxiv.org/abs/2003.03934)
-
-    *Raha Moraffah, Mansooreh Karami, Ruocheng Guo, Adrienne Raglin, Huan Liu*
-
-1. **A Survey Of Methods For Explaining Black Box Models.** ACM 2018 [paper](https://dl.acm.org/doi/10.1145/3236009)
-
-    *Riccardo Guidotti, Anna Monreale, Salvatore Ruggieri, Franco Turini, Fosca Giannotti, Dino Pedreschi*
-
-1. **Language (Technology) is Power: A Critical Survey of "Bias" in NLP.** Association for Computational Linguistics 2020 [paper](https://arxiv.org/abs/2005.14050)
-
-    *Su Lin Blodgett, Solon Barocas, Hal Daumé III, Hanna Wallach*
-
-1. **A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability.** arxiv 2020 [paper](https://arxiv.org/abs/1812.08342)
-
-    *Xiaowei Huang*
-
-1. **Understanding Neural Networks via Feature Visualization: A survey.** arXiv 2019 [paper](https://arxiv.org/abs/1904.08939)
-
-    *Anh Nguyen, Jason Yosinski, Jeff Clune*
 
 #### [Interpretability and Analysis of Models for NLP](#content)
 
@@ -1201,132 +492,6 @@ Zhiyuan Liu*
 
     *Chenhui Chu, Rui Wang*
 
-#### [Meta Learning](#content)
-
-1. **A Comprehensive Overview and Survey of Recent Advances in Meta-Learning.** arxiv 2020 [paper](https://arxiv.org/abs/2004.11149)
-
-    *Huimin Peng*
-
-1. **Meta-Learning in Neural Networks: A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2004.05439)
-
-    *Timothy M. Hospedales, Antreas Antoniou, Paul Micaelli, Amos J. Storkey*
-
-1. **Meta-Learning: A Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1810.03548)
-
-    *Joaquin Vanschoren*
-
-#### [Metric Learning](#content)
-
-1. **A Tutorial on Distance Metric Learning: Mathematical Foundations, Algorithms and Experiments.** arxiv 2018 [paper](https://arxiv.org/abs/1812.05944)
-
-    *Juan Luis Suárez, Salvador García, Francisco Herrera*
-
-1. **A Survey on Metric Learning for Feature Vectors and Structured Data.** arxiv 2013 [paper](https://arxiv.org/abs/1306.6709)
-
-    *Aurélien Bellet, Amaury Habrard, Marc Sebban*
-
-#### [ML Applications](#content)
-
-1. **A Survey on Deep Learning based Brain-Computer Interface: Recent Advances and New Frontiers.** arXiv 2019 [paper](https://arxiv.org/abs/1905.04149v1)
-
-    *Xiang Zhang, Lina Yao, Xianzhi Wang, Jessica J M Monaghan, David Mcalpine, Yu Zhang*
-
-1. **Machine Learning Aided Static Malware Analysis: A Survey and Tutorial.** arxiv 2018 [paper](https://arxiv.org/abs/1808.01201)
-
-    *Andrii Shalaginov, Sergii Banin, Ali Dehghantanha, Katrin Franke*
-
-1. **Artificial Neural Networks-Based Machine Learning for Wireless Networks: A Tutorial.** IEEE Communications Surveys & Tutorials 2019 [paper](https://ieeexplore.ieee.org/document/8755300)
-
-    *Mingzhe Chen, Ursula Challita, Walid Saad, Changchuan Yin, Mérouane Debbah*
-
-1. **The Creation and Detection of Deepfakes:A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2004.11138v1)
-
-    *Yisroel Mirsky, Wenke Lee*
-
-1. **Machine Learning for Survival Analysis: A Survey.** CoRR 2017 [paper](https://arxiv.org/abs/1708.04649)
-
-    *Ping Wang, Yan Li, Chandan K. Reddy*
-
-1. **A Survey of Machine Learning Methods and Challenges for Windows Malware Classification.** arxiv 2020 [paper](https://arxiv.org/abs/2006.09271)
-
-    *Edward Raff, Charles Nicholas*
-
-1. **A survey on deep hashing for image retrieval.** arxiv 2020 [paper](https://arxiv.org/abs/2006.05627)
-
-    *Xiaopeng Zhang*
-
-1. **A Survey of Adaptive Resonance Theory Neural Network Models for Engineering Applications.** Neural Networks 2019 [paper](https://arxiv.org/abs/1905.11437)
-
-    *Leonardo Enzo Brito da Silva, Islam Elnabarawy, Donald C. Wunsch II*
-
-1. **How Developers Iterate on Machine Learning Workflows -- A Survey of the Applied Machine Learning Literature.** arxiv 2018 [paper](https://arxiv.org/abs/1803.10311)
-
-    *Doris Xin, Litian Ma, Shuchen Song, Aditya G. Parameswaran*
-
-1. **Malaria Likelihood Prediction By Effectively Surveying Households Using Deep Reinforcement Learning.** arxiv 2017 [paper](https://arxiv.org/abs/1711.09223)
-
-    *Pranav Rajpurkar, Vinaya Polamreddi, Anusha Balakrishnan*
-
-1. **A Survey on Deep Learning in Medical Image Analysis.** Medical Image Analysis 2017 [paper](https://arxiv.org/abs/1702.05747)
-
-    *Geert J S Litjens, Thijs Kooi, Babak Ehteshami Bejnordi, Arnaud A A Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen A W M Van Der Laak, Bram Van Ginneken, Clara I Sanchez*
-
-1. **AI and Holistic Review: Informing Human Reading in College Admissions.** arXiv 2019 [paper](https://arxiv.org/abs/1912.09318)
-
-    *AJ Alvero, Noah Arthurs, anthony lising antonio, Benjamin W. Domingue, Ben Gebre-Medhin, Sonia Giebel, Mitchell L. Stevens*
-
-#### [Model Compression and Acceleration](#content)
-
-1. **Pruning Algorithms to Accelerate Convolutional Neural Networks for Edge Applications: A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2005.04275)
-
-    *Jiayi Liu, Samarth Tripathi, Unmesh Kurup, Mohak Shah*
-
-1. **A Survey on Methods and Theories of Quantized Neural Networks.** CoRR 2018 [paper](https://arxiv.org/abs/1808.04752)
-
-    *Yunhui Guo*
-
-1. **Knowledge Distillation: A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2006.05525)
-
-    *Jianping Gou, Baosheng Yu, Stephen John Maybank, Dacheng Tao*
-
-1. **An Overview of Neural Network Compression.** arxiv 2020 [paper](https://arxiv.org/abs/2006.03669)
-
-    *J O Neill*
-
-1. **A Survey of Model Compression and Acceleration for Deep Neural Networks.** arxiv 2017 [paper](https://arxiv.org/abs/1710.09282)
-
-    *Yu Cheng, Duo Wang, Pan Zhou, Tao Zhang*
-
-#### [Multi-Task and Multi-View Learning](#content)
-
-1. **A Survey on Multi-Task Learning.** CoRR 2017 [paper](https://arxiv.org/abs/1707.08114)
-
-    *Yu Zhang, Qiang Yang*
-
-1. **An Overview of Multi-Task Learning in Deep Neural Networks.** arXiv 2017 [paper](https://arxiv.org/abs/1706.05098)
-
-    *Sebastian Ruder*
-
-1. **An overview of multi-task learning.** National Science Review 2018 [paper](https://academic.oup.com/nsr/article/5/1/30/4101432)
-
-    *Yu Zhang, Qiang Yang*
-
-1. **A Brief Review on Multi-Task Learning.** Multimedia Tools and Applications 2018 [paper](https://www.researchgate.net/publication/326903979_A_brief_review_on_multi-task_learning)
-
-    *Kimhan Thung, Chong Yaw Wee*
-
-1. **Revisiting Multi-Task Learning in the Deep Learning Era.** arxiv 2020 [paper](https://arxiv.org/abs/2004.13379)
-
-    *Simon Vandenhende, Stamatios Georgoulis, Marc Proesmans, Dengxin Dai, Luc Van Gool*
-
-1. **Revisiting Multi-Task Learning in the Deep Learning Era.** arxiv 2020 [paper](https://arxiv.org/abs/2004.13379)
-
-    *Simon Vandenhende, Stamatios Georgoulis, Marc Proesmans, Dengxin Dai, Luc Van Gool*
-
-1. **A Survey on Multi-view Learning.** CoRR 2013 [paper](https://arxiv.org/abs/1304.5634)
-
-    *Chang Xu, Dacheng Tao, Chao Xu*
-
 #### [Natural Language Processing](#content)
 
 1. **Natural Language Processing - A Survey.** arxiv 2012 [paper](https://arxiv.org/abs/1209.6238)
@@ -1432,54 +597,6 @@ Zhiyuan Liu*
 1. **Disinformation Detection: A review of linguistic feature selection and classification models in news veracity assessments.** arXiv 2019 [paper](https://arxiv.org/abs/1910.12073)
 
     *Jillian Tompkins*
-
-#### [Online Learning](#content)
-
-1. **Preference-based Online Learning with Dueling Bandits: A Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1807.11398)
-
-    *Robert Busa-Fekete, Eyke Hüllermeier, Adil El Mesaoudi-Paul*
-
-1. **Online Learning: A Comprehensive Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1802.02871)
-
-    *Steven C.H. Hoi, Doyen Sahoo, Jing Lu, Peilin Zhao*
-
-1. **A Survey of Algorithms and Analysis for Adaptive Online Learning.** Journal of Machine Learning Research 2017 [paper](https://arxiv.org/abs/1403.3465)
-
-    *H. Brendan McMahan*
-
-#### [Optimization](#content)
-
-1. **Convex Optimization Overview.** IEEE Signal Processing Magazine 2008 [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.6470)
-
-    *Nikos Komodakis*
-
-1. **Optimization for deep learning: theory and algorithms.** arxiv 2019 [paper](https://arxiv.org/abs/1912.08957)
-
-    *Ruoyu Sun*
-
-1. **A Systematic and Meta-analysis Survey of Whale Optimization Algorithm.** Comput. Intell. Neurosci. 2019 [paper](https://arxiv.org/abs/1903.08763)
-
-    *Hardi M. Mohammed, Shahla U. Umar, Tarik A. Rashid*
-
-1. **A Survey of Optimization Methods from a Machine Learning Perspective.** arxiv 2019 [paper](https://arxiv.org/abs/1906.06821)
-
-    *Shiliang Sun, Zehui Cao, Han Zhu, Jing Zhao*
-
-1. **Optimization Models for Machine Learning: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1901.05331)
-
-    *Claudio Gambella, Bissan Ghaddar, Joe Naoum-Sawaya*
-
-1. **Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives.** Machine Learning and Knowledge Extraction 2019 [paper](https://arxiv.org/abs/1804.05319)
-
-    *Saptarshi Sengupta, Sanchita Basak, Richard Alan Peters II*
-
-1. **Gradient Boosting Machine: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1908.06951)
-
-    *Zhiyuan He, Danchen Lin, Thomas Lau, Mike Wu*
-
-1. **An overview of gradient descent optimization algorithms.** arXiv 2017 [paper](https://arxiv.org/abs/1609.04747)
-
-    *Sebastian Ruder*
 
 #### [Question Answering](#content)
 
@@ -1643,24 +760,6 @@ Zhiyuan Liu*
 
     *Yarin Gal*
 
-#### [Semi-Supervised and Unsupervised Learning](#content)
-
-1. **Improvability Through Semi-Supervised Learning: A Survey of Theoretical Results.** arxiv 2019 [paper](https://arxiv.org/abs/1908.09574)
-
-    *Alexander Mey, Marco Loog*
-
-1. **A Survey on Semi-Supervised Learning Techniques.** CoRR 2014 [paper](https://arxiv.org/abs/1402.4645)
-
-    *V. Jothi Prakash, Dr. L.M. Nithya*
-
-1. **A brief introduction to weakly supervised learning.** arxiv 2018 [paper](https://cs.nju.edu.cn/_upload/tpl/01/0b/267/template267/zhouzh.files/publication/nsr18.pdf)
-
-    *Zhihua Zhou*
-
-1. **Learning from positive and unlabeled data: a survey.** Machine Learning 2020 [paper](https://arxiv.org/abs/1811.04820)
-
-    *Jessa Bekker, Jesse Davis*
-
 #### [Sentiment Analysis and Stylistic Analysis and Argument Mining](#content)
 
 1. **Semantic search on text and knowledge bases.** Foundations and trends in information retrieval 2016 [paper](https://www.researchgate.net/profile/Hannah_Bast/publication/304364705_Semantic_Search_on_Text_and_Knowledge_Bases/links/594a4734aca2723195de48df/Semantic-Search-on-Text-and-Knowledge-Bases.pdf)
@@ -1795,7 +894,7 @@ Zhiyuan Liu*
 
     *Shen Gao, Xiuying Chen, Zhaochun Ren, Dongyan Zhao, Rui Yan*
 
-#### [Tagging and Chunking and Syntax and Parsing](#content)
+#### [Tagging Chunking Syntax and Parsing](#content)
 
 1. **A Neural Entity Coreference Resolution Review.** arXiv 2019 [paper](https://arxiv.org/abs/1910.09329)
 
@@ -1834,6 +933,803 @@ Zhiyuan Liu*
 1. **Deep Learning Based Text Classification: A Comprehensive Review.** arXiv 2020 [paper](https://arxiv.org/abs/2004.03705)
 
     *Shervin Minaee, Nal Kalchbrenner, Erik Cambria, Narjes Nikzad, Meysam Chenaghlu, Jianfeng Gao*
+
+## The Paper List of Machine Learning
+
+#### [Architectures](#content)
+
+1. **Recent Advances in Convolutional Neural Networks.** Pattern Recognition 2018 [paper](https://arxiv.org/abs/1512.07108v3)
+
+    *Jiuxiang Gu, Zhenhua Wang, Jason Kuen, Lianyang Ma, Amir Shahroudy, Bing Shuai, Ting Liu, Xingxing Wang, Gang Wang, Jianfei Cai, Tsuhan Chen*
+
+1. **Deep Echo State Network (DeepESN): A Brief Survey.** arxiv 2017 [paper](https://arxiv.org/abs/1712.04323)
+
+    *Claudio Gallicchio, Alessio Micheli*
+
+1. **Non-local Neural Networks.** CVPR 2018 [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.html)
+
+    *Xiaolong Wang, Ross B. Girshick, Abhinav Gupta, Kaiming He*
+
+1. **Binary Neural Networks: A Survey.** Pattern Recognit. 2020 [paper](https://arxiv.org/abs/2004.03333)
+
+    *Haotong Qin, Ruihao Gong, Xianglong Liu, Xiao Bai, Jingkuan Song, Nicu Sebe*
+
+1. **Sum-product networks: A survey.** arxiv 2020 [paper](https://arxiv.org/abs/2004.01167)
+
+    *Iago París, Raquel Sánchez-Cauce, Francisco Javier Díez*
+
+1. **An Attentive Survey of Attention Models.** arxiv 2019 [paper](https://arxiv.org/abs/1904.02874)
+
+    *Sneha Chaudhari, Gungor Polatkan, Rohan Ramanath, Varun Mithal*
+
+1. **A Survey on Latent Tree Models and Applications.** Journal of Artificial Intelligence Research 2013 [paper](https://arxiv.org/abs/1402.0577)
+
+    *Raphaël Mourad, Christine Sinoquet, Nevin L. Zhang, Tengfei Liu, Philippe Leray*
+
+1. **Neural Module Networks.** CVPR 2016 [paper](https://ieeexplore.ieee.org/document/7780381)
+
+    *Jacob Andreas, Marcus Rohrbach, Trevor Darrell, D Klein*
+
+1. **A Survey of End-to-End Driving: Architectures and Training Methods.** arXiv 2020 [paper](https://arxiv.org/abs/2003.06404)
+
+    *Ardi Tampuu, Maksym Semikin, Naveed Muhammad, Dmytro Fishman, Tambet Matiisen*
+
+1. **A Survey of Convolutional Neural Networks: Analysis, Applications, and Prospects.** arxiv 2020 [paper](https://arxiv.org/abs/2004.02806)
+
+    *Zewen Li, Wenjie Yang, Shouheng Peng, Fan Liu*
+
+1. **Survey on the attention based RNN model and its applications in computer vision.** arxiv 2016 [paper](https://arxiv.org/abs/1601.06823)
+
+    *Feng Wang, David M. J. Tax*
+
+1. **Understanding LSTM -- a tutorial into Long Short-Term Memory Recurrent Neural Networks.** arxiv 2019 [paper](https://arxiv.org/abs/1909.09586)
+
+    *Ralf C. Staudemeyer, Eric Rothstein Morris*
+
+#### [AutoML](#content)
+
+1. **A Comprehensive Survey of Neural Architecture Search: Challenges and Solutions.** arxiv 2020 [paper](https://arxiv.org/abs/2006.02903)
+
+    *Pengzhen Ren, Yun Xiao, Xiaojun Chang, Po-Yao Huang, Zhihui Li, Xiaojiang Chen, Xin Wang*
+
+1. **A Survey on Neural Architecture Search.** arxiv 2019 [paper](https://arxiv.org/abs/1905.01392)
+
+    *Martin Wistuba, Ambrish Rawat, Tejaswini Pedapati*
+
+1. **Benchmark and Survey of Automated Machine Learning Frameworks.** arxiv 2020 [paper](https://arxiv.org/abs/1904.12054)
+
+    *Marc-André Zöller, Marco F. Huber*
+
+1. **Neural Architecture Search: A Survey.** Journal of Machine Learning Research 2019 [paper](https://arxiv.org/abs/1808.05377)
+
+    *Thomas Elsken, Jan Hendrik Metzen, Frank Hutter*
+
+1. **AutoML: A Survey of the State-of-the-Art.** arxiv 2019 [paper](https://arxiv.org/abs/1908.00709)
+
+    *Xin He, Kaiyong Zhao, Xiaowen Chu*
+
+1. **Neural Architecture Search at CVPR 2019.** CVPR 2019  [paper](https://drsleep.github.io/review/NAS-at-CVPR-2019/)
+
+    *Vladimir Nekrasov*
+
+1. **Benchmark and Survey of Automated Machine Learning Frameworks.** arXiv 2019 [paper](https://arxiv.org/abs/1904.12054)
+
+    *Marc-André Zöller, Marco F. Huber*
+
+#### [Bayesian Methods](#content)
+
+1. **Towards Bayesian Deep Learning: A Survey.** arxiv 2016 [paper](https://arxiv.org/abs/1604.01662)
+
+    *Hao Wang, Dityan Yeung*
+
+1. **A survey of non-exchangeable priors for Bayesian nonparametric models.** IEEE 2015 [paper](https://arxiv.org/abs/1211.4798)
+
+    *Nicholas J. Foti, Sinead Williamson*
+
+1. **Bayesian Nonparametric Space Partitions: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2002.11394)
+
+    *Xuhui Fan, Bin Li, Ling Luo, Scott A. Sisson*
+
+#### [Classification Clustering and Regression](#content)
+
+1. **A Survey of Classification Techniques in the Area of Big Data.** CoRR 2015 [paper](https://arxiv.org/abs/1503.07477)
+
+    *Praful Koturwar, Sheetal Girase, Debajyoti Mukhopadhyay*
+
+1. **Deep learning for time series classification: a review.** arXiv 2019 [paper](https://arxiv.org/abs/1809.04356)
+
+    *Hassan Ismail Fawaz, Germain Forestier, Jonathan Weber, Lhassane Idoumghar, Pierre-Alain Muller*
+
+1. **How Complex is your classification problem? A survey on measuring classification complexity.** ACM Comput. Surv. 52(5) 2019 [paper](https://arxiv.org/abs/1808.03591)
+
+    *Ana Carolina Lorena, Luis P F Garcia, Jens Lehmann, Marcilio C P Souto, Tin K Ho*
+
+1. **A Survey on Multi-View Clustering.** CoRR 2017 [paper](https://arxiv.org/abs/1712.06246)
+
+    *Guoqing Chao, Shiliang Sun, Jinbo Bi*
+
+1. **A Survey of Constrained Gaussian Process Regression: Approaches and Implementation Challenges.** arxiv 2020 [paper](https://arxiv.org/abs/2006.09319)
+
+    *Laura P. Swiler, Mamikon Gulian, Ari Frankel, Cosmin Safta, John D. Jakeman*
+
+#### [Curriculum Learning](#content)
+
+1. **Automatic Curriculum Learning For Deep RL: A Short Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2003.04664)
+
+    *Rémy Portelas, Cédric Colas, Lilian Weng, Katja Hofmann, Pierre-Yves Oudeyer*
+
+1. **Curriculum Learning for Reinforcement Learning Domains: A Framework and Survey.** arXIv 2020 [paper](https://arxiv.org/abs/2003.04960)
+
+    *Sanmit Narvekar, Bei Peng, Matteo Leonetti, Jivko Sinapov, Matthew E. Taylor, Peter Stone*
+
+#### [Data Augmentation](#content)
+
+1. **A survey on Image Data Augmentation for Deep Learning.** Journal of Big Data 2019 [paper](https://link.springer.com/article/10.1186/s40537-019-0197-0)
+
+    *Connor Shorten*
+
+1. **A Visual Survey of Data Augmentation in NLP.** not found  [paper]()
+
+    *Amit Chaudhary*
+
+1. **Time Series Data Augmentation for Deep Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2002.12478)
+
+    *Qingsong Wen, Liang Sun, Xiaomin Song, Jingkun Gao, Xue Wang, Huan Xu*
+
+1. **EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks.** arxiv 2019 [paper](https://arxiv.org/abs/1901.11196)
+
+    *Jason Wei, Kai Zou*
+
+#### [Deep Learning](#content)
+
+1. **Survey of Dropout Methods for Deep Neural Networks.** arxiv 2019 [paper](https://arxiv.org/abs/1904.13310)
+
+    *Alex Labach, Hojjat Salehinejad, Shahrokh Valaee*
+
+1. **Deep Learning on Graphs: A Survey.** arxiv 2018 [paper](https://arxiv.org/abs/1812.04202)
+
+    *Ziwei Zhang, Peng Cui, Wenwu Zhu*
+
+1. **The History Began from AlexNet: A Comprehensive Survey on Deep Learning Approaches.** arxiv 2018 [paper](https://arxiv.org/abs/1803.01164)
+
+    *Zahangir Alom, Tarek M Taha, Christopher Yakopcic, Stefan Westberg, Paheding Sidike, Mst Shamima Nasrin, Brian C Van Esesn, Abdul A S Awwal, Vijayan K Asari*
+
+1. **Geometric Deep Learning: Going beyond Euclidean data.** IEEE/CoRR 2016 [paper](https://arxiv.org/abs/1611.08097)
+
+    *Michael M. Bronstein, Joan Bruna, Yann LeCun, Arthur Szlam, Pierre Vandergheynst*
+
+1. **Neural Message Passing for Quantum Chemistry.** ICML/CoRR 2017 [paper](https://arxiv.org/abs/1704.01212)
+
+    *Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl*
+
+1. **A survey on modern trainable activation functions.** arxiv 2020 [paper](https://arxiv.org/abs/2005.00817)
+
+    *Andrea Apicella, Francesco Donnarumma, Francesco Isgrò, Roberto Prevete*
+
+1. **Foundations of Sequence-to-Sequence Modeling for Time Series.** AISTATS 2018 [paper](https://arxiv.org/abs/1805.03714)
+
+    *Vitaly Kuznetsov, Zelda Mariet*
+
+1. **A Survey of Neuromorphic Computing and Neural Networks in Hardware.** CoRR 2017 [paper](https://arxiv.org/abs/1705.06963)
+
+    *Catherine D. Schuman, Thomas E. Potok, Robert M. Patton, J. Douglas Birdwell, Mark E. Dean, Garrett S. Rose, James S. Plank*
+
+1. **Survey of reasoning using Neural networks.** CoRR 2017 [paper](https://arxiv.org/abs/1702.06186)
+
+    *Amit Sahu*
+
+1. **Convergence of Edge Computing and Deep Learning: A Comprehensive Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1907.08349?context=cs.NI)
+
+    *Xiaofei Wang, Yiwen Han, Victor C.M. Leung, Dusit Niyato, Xueqiang Yan, Xu Chen*
+
+1. **A Survey on Deep Hashing Methods.** arXiv 2020 [paper](https://arxiv.org/abs/2003.03369)
+
+    *Xiao Luo, Chong Chen, Huasong Zhong, Hao Zhang, Minghua Deng, Jianqiang Huang, Xiansheng Hua*
+
+1. **The Deep Learning Compiler: A Comprehensive Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2002.03794)
+
+    *Mingzhen Li, Yi Liu, Xiaoyan Liu, Qingxiao Sun, Xin You, Hailong Yang, Zhongzhi Luan, Depei Qian*
+
+1. **Improving Deep Learning Models via Constraint-Based Domain Knowledge: a Brief Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2005.10691)
+
+    *Andrea Borghesi, Federico Baldo, Michela Milano*
+
+1. **Deep Learning Theory Review: An Optimal Control and Dynamical Systems Perspective.** arXiv 2019 [paper](https://arxiv.org/abs/1908.10920)
+
+    *Guan-Horng Liu, Evangelos A. Theodorou*
+
+1. **Review: Ordinary Differential Equations For Deep Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1911.00502)
+
+    *Xinshi Chen*
+
+1. **Time Series Forecasting With Deep Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2004.13408)
+
+    *Bryan Lim, Stefan Zohren*
+
+1. **Survey of Expressivity in Deep Neural Networks.** arxiv 2016 [paper](https://arxiv.org/abs/1611.08083)
+
+    *Maithra Raghu, Ben Poole, Jon Kleinberg, Surya Ganguli, Jascha Sohldickstein*
+
+1. **Deep learning.** nature 2015 [paper](https://www.nature.com/articles/nature14539)
+
+    *Yann LeCun*
+
+#### [Deep Reinforcement Learning](#content)
+
+1. **Feature-Based Aggregation and Deep Reinforcement Learning: A Survey and Some New Implementations.** IEEE 2019 [paper](https://arxiv.org/abs/1804.04577)
+
+    *Dimitri P. Bertsekas*
+
+1. **A Brief Survey of Deep Reinforcement Learning.** arxiv 2017 [paper](https://arxiv.org/abs/1708.05866)
+
+    *Kai Arulkumaran, Marc Peter Deisenroth, Miles Brundage, Anil A Bharath*
+
+1. **Deep Reinforcement Learning: An Overview.** arxiv 2017 [paper](https://arxiv.org/abs/1701.07274)
+
+    *Yuxi Li*
+
+1. **A Short Survey on Probabilistic Reinforcement Learning.** arxiv 2019 [paper](https://arxiv.org/abs/1901.07010)
+
+    *Reazul Hasan Russel*
+
+1. **A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress.** CoRR 2018 [paper](https://arxiv.org/abs/1806.06877)
+
+    *Saurabh Arora, Prashant Doshi*
+
+1. **A Survey of Reinforcement Learning Informed by Natural Language.** IJCAI 2019 [paper](https://arxiv.org/abs/1906.03926)
+
+    *Jelena Luketina, Nantas Nardelli, Gregory Farquhar, Jakob N. Foerster, Jacob Andreas, Edward Grefenstette, Shimon Whiteson, Tim Rocktäschel*
+
+1. **A Survey of Reinforcement Learning Algorithms for Dynamically Varying Environments.** arXiv 2020 [paper](https://arxiv.org/abs/2005.10619)
+
+    *Sindhu Padakandla*
+
+1. **A Short Survey On Memory Based Reinforcement Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1904.06736v1)
+
+    *Dhruv Ramani*
+
+1. **A Survey of Reinforcement Learning Techniques: Strategies, Recent Development, and Future Directions.** arXiv 2020 [paper](https://arxiv.org/abs/2001.06921)
+
+    *Amit Kumar Mondal*
+
+1. **A survey on intrinsic motivation in reinforcement learning.** arXiv 2019 [paper](https://arxiv.org/abs/1908.06976)
+
+    *Aubret, Arthur，Matignon, Laetitia，Hassas, Salima*
+
+1. **A Survey on Reproducibility by Evaluating Deep Reinforcement Learning Algorithms on Real-World Robots.** arXiv 2019 [paper](https://arxiv.org/abs/1909.03772)
+
+    *Nicolai A. Lynnerup, Laura Nolling, Rasmus Hasle, John Hallam*
+
+#### [Federated Learning](#content)
+
+1. **Towards Utilizing Unlabeled Data in Federated Learning: A Survey and Prospective.** arXiv 2020 [paper](https://arxiv.org/abs/2002.11545v2)
+
+    *Yilun Jin, Xiguang Wei, Yang Liu, Qiang Yang*
+
+1. **Threats to Federated Learning: A Survey.** CoRL 2019 2020 [paper](https://arxiv.org/abs/2003.02133)
+
+    *Lingjuan Lyu, Han Yu, Qiang Yang*
+
+1. **A Survey towards Federated Semi-supervised Learning.** FRUCT 2020 [paper](https://arxiv.org/abs/2002.11545v1)
+
+    *Yilun Jin, Xiguang Wei, Yang Liu, Qiang Yang*
+
+#### [Few-Shot and Zero-Shot Learning](#content)
+
+1. **Generalizing from a Few Examples: A Survey on Few-Shot Learning.** arxiv 2019 [paper](https://arxiv.org/abs/1904.05046)
+
+    *Yaqing Wang, Quanming Yao, James Kwok, Lionel M. Ni*
+
+1. **Few-shot Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1904.05046v1)
+
+    *Yaqing Wang, Quanming Yao*
+
+1. **A survey on Zero-shot learning.** Journal of science  [paper]()
+
+    *Fengyi Song*
+
+1. **A Survey of Zero-Shot Learning: Settings, Methods, and Applications.** ACM Journals 2019 [paper](https://dl.acm.org/doi/10.1145/3293318)
+
+    *Wei Wang,Vincent W. Zheng,Han Yu,Chunyan Miao*
+
+#### [General Machine Learning](#content)
+
+1. **Ensembling Neural Networks: Many Could Be Better than All.** Artificial Intelligence 2002 [paper](https://doi.org/10.1016/S0004-3702(02)00190-X)
+
+    *Zhihua Zhou, Jianxin Wu, Wei Tang*
+
+1. **Advances and Open Problems in Federated Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1912.04977)
+
+    *Peter Kairouz, H Brendan Mcmahan, Brendan Avent, Aurelien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Keith Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael G L Doliveira, Salim El Rouayheb, David Evans, Josh Gardner, Zachary A Garrett, Adria Gascon, Badih Ghazi, Phillip B Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub Konecný, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, Tancrede Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer Ozgur, Rasmus Pagh, Mariana Raykova, Hang Qi, Daniel Ramage, Ramesh Raskar, Dawn Song, Weikang Song, Sebastian U Stich, Ziteng Sun, Ananda Theertha Suresh, Florian Tramer, Praneeth Vepakomma, Jianyu Wang, Li Xiong, Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao*
+
+1. **Relational inductive biases, deep learning, and graph networks.** CoRR 2018 [paper](http://arxiv.org/abs/1806.01261)
+
+    *Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinícius Flores Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Çaglar Gülçehre, H. Francis Song, Andrew J. Ballard, Justin Gilmer, George E. Dahl, Ashish Vaswani, Kelsey R. Allen, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matthew Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu*
+
+1. **A Survey on Graph Kernels.** Applied Network Science 2020 [paper](https://arxiv.org/abs/1903.11835)
+
+    *Nils M. Kriege, Fredrik D. Johansson, Christopher Morris*
+
+1. **Algorithms Inspired by Nature: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1903.01893)
+
+    *Pranshu Gupta*
+
+1. **Deep Tree Transductions - A Short Survey.** INNSBDDL 2019 [paper](https://arxiv.org/abs/1902.01737)
+
+    *Davide Bacciu, Antonio Bruno*
+
+1. **A Survey on Multi-output Learning.** CoRR 2019 [paper](https://arxiv.org/abs/1901.00248)
+
+    *Donna Xu, Yaxin Shi, Ivor W. Tsang, Yew-Soon Ong, Chen Gong, Xiaobo Shen*
+
+1. **A Survey on Data Collection for Machine Learning: a Big Data -- AI Integration Perspective.** CoRR 2018 [paper](https://arxiv.org/abs/1811.03402)
+
+    *Yuji Roh, Geon Heo, Steven Euijong Whang*
+
+1. **Verification for Machine Learning, Autonomy, and Neural Networks Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1810.01989)
+
+    *Weiming Xiang, Patrick Musau, Ayana A. Wild, Diego Manzanas Lopez, Nathaniel Hamilton, Xiaodong Yang, Joel Rosenfeld, Taylor T. Johnson*
+
+1. **A Survey on Surrogate Approaches to Non-negative Matrix Factorization.** CoRR 2018 [paper](https://arxiv.org/abs/1808.01975)
+
+    *Pascal Fernsel, Peter Maass*
+
+1. **The Benefits of Population Diversity in Evolutionary Algorithms: A Survey of Rigorous Runtime Analyses.** CoRR 2018 [paper](https://arxiv.org/abs/1801.10087)
+
+    *Dirk Sudholt*
+
+1. **A Survey on Resilient Machine Learning.** CoRR 2017 [paper](https://arxiv.org/abs/1707.03184)
+
+    *Atul Kumar, Sameep Mehta*
+
+1. **Machine Learning with World Knowledge: The Position and Survey.** CoRR 2017 [paper](https://arxiv.org/abs/1705.02908)
+
+    *Yangqiu Song, Dan Roth*
+
+1. **A survey on feature weighting based K-Means algorithms.** Journal of Classification 2016 [paper](https://arxiv.org/abs/1601.03483)
+
+    *Renato Cordeiro de Amorim*
+
+1. **Survey on Feature Selection.** CoRR 2015 [paper](https://arxiv.org/abs/1510.02892)
+
+    *Tarek Amr Abdallah, Beatriz de La Iglesia*
+
+1. **A Survey of Predictive Modelling under Imbalanced Distributions.** CoRR 2015 [paper](https://arxiv.org/abs/1505.01658)
+
+    *Paula Branco, Luis Torgo, Rita Ribeiro*
+
+1. **Hierarchical Mixtures-of-Experts for Exponential Family Regression Models with Generalized Linear Mean Functions: A Survey of Approximation and Consistency Results.** CoRR 2013 [paper](https://arxiv.org/abs/1301.7390)
+
+    *Wenxin Jiang, Martin A. Tanner*
+
+1. **Survey on Five Tribes of Machine Learning and the Main Algorithms.** Software Guide 2019 [paper](http://en.cnki.com.cn/Article_en/CJFDTotal-RJDK201907003.htm)
+
+    *LI Xu-ran，DING Xiao-hong*
+
+1. **Machine Learning in Network Centrality Measures: Tutorial and Outlook.** Association for Computing Machinery 2018 [paper](https://arxiv.org/abs/1810.11760)
+
+    *Felipe Grando, Lisandro Zambenedetti Granville, Luís C. Lamb*
+
+1. **Learning Representations of Graph Data -- A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1906.02989)
+
+    *Mital Kinderkhedia*
+
+1. **Hyperbox based machine learning algorithms: A comprehensive survey.** arxiv 2019 [paper](https://arxiv.org/abs/1901.11303)
+
+    *Thanh Tung Khuat, Dymitr Ruta, Bogdan Gabrys*
+
+1. **Machine Learning for Spatiotemporal Sequence Forecasting: A Survey.** arxiv 2018 [paper](https://arxiv.org/abs/1808.06865)
+
+    *Xingjian Shi, Dit-Yan Yeung*
+
+1. **Network Representation Learning: A Survey.** IEEE Trans. Big Data 2020 [paper](https://arxiv.org/abs/1801.05852)
+
+    *Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang*
+
+1. **Mean-Field Learning: a Survey.** arxiv 2012 [paper](https://arxiv.org/abs/1210.4657)
+
+    *Hamidou Tembine, Raúl Tempone, Pedro Vilanova*
+
+1. **Narrative Science Systems: A Review.** International Journal of Research 2015 [paper](https://arxiv.org/abs/1510.04420)
+
+    *Paramjot Kaur Sarao, Puneet Mittal, Rupinder Kaur*
+
+1. **A Tutorial on Network Embeddings.** arxiv 2018 [paper](https://arxiv.org/abs/1808.02590)
+
+    *Haochen Chen, Bryan Perozzi, Rami Al-Rfou, Steven Skiena*
+
+1. **Structure Learning of Probabilistic Graphical Models: A Comprehensive Survey.** arxiv 2011 [paper](https://arxiv.org/abs/1111.6925)
+
+    *Yang Zhou*
+
+1. **Statistical Queries and Statistical Algorithms: Foundations and Applications.** arxiv 2020 [paper](https://arxiv.org/abs/2004.00557)
+
+    *Lev Reyzin*
+
+1. **A survey of dimensionality reduction techniques.** arxiv 2014 [paper](https://arxiv.org/abs/1403.2877)
+
+    *C.O.S. Sorzano, J. Vargas, A. Pascual Montano*
+
+1. **Relational Representation Learning for Dynamic (Knowledge) Graphs: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1905.11485)
+
+    *Seyed Mehran Kazemi, Rishab Goel, Kshitij Jain, Ivan Kobyzev, Akshay Sethi, Peter Forsyth, Pascal Poupart*
+
+1. **Graph Representation Learning: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1909.00958)
+
+    *Fenxiao Chen, Yuncheng Wang, Bin Wang, C.-C. Jay Kuo*
+
+1. **Multi-Objective Multi-Agent Decision Making: A Utility-based Analysis and Survey.** Autonomous Agents and Multi-Agent Systems 2020 [paper](https://link.springer.com/content/pdf/10.1007/s10458-019-09433-x.pdf)
+
+    *Roxana Rădulescu, Patrick Mannion, Diederik M. Roijers, Ann Nowé *
+
+1. **Survey: Machine Learning in Production Rendering.** arXiv 2020 [paper](https://arxiv.org/abs/2005.12518v1)
+
+    *Shilin Zhu*
+
+1. **Machine Learning Testing: Survey, Landscapes and Horizons.** arXiv 2019 [paper](https://arxiv.org/abs/1906.10742v1)
+
+    *Jie M. Zhang (1), Mark Harman (1 and 2), Lei Ma (3), Yang Liu (4) ((1) University College London, (2) Facebook London, (3) Kyushu University, (4) Nanyang Technological University)*
+
+1. **Heuristic design of fuzzy inference systems: A review of three decades of research.** arXiv 2019 [paper](https://arxiv.org/abs/1908.10122)
+
+    *Varun Ojha, Ajith Abraham, Vaclav Snasel*
+
+1. **Imbalance Problems in Object Detection: A Review.** arXiv 2019 [paper](https://arxiv.org/abs/1909.00169)
+
+    *Kemal Oksuz, Baris Can Cam, Sinan Kalkan, Emre Akbas*
+
+1. **Machine Learning at the Network Edge: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1908.00080)
+
+    *M.G. Sarwar Murshed, Christopher Murphy, Daqing Hou, Nazar Khan, Ganesh Ananthanarayanan, Faraz Hussain*
+
+1. **Adversarial Examples in Modern Machine Learning: A Review.** arXiv 2019 [paper](https://arxiv.org/abs/1911.05268)
+
+    *Rey Reza Wiyatno, Anqi Xu, Ousmane Dia, Archy de Berker*
+
+1. **A Survey on Activation Functions and their relation with Xavier and He Normal Initialization.** arXiv 2020 [paper](https://arxiv.org/abs/2004.06632)
+
+    *Leonid Datta*
+
+1. **Unsupervised Cross-Lingual Representation Learning.** ACL 2019 [paper](https://www.aclweb.org/anthology/P19-4007.pdf)
+
+    *Sebastian Ruder, Anders Søgaard, Ivan Vulic*
+
+#### [Generative Adversarial Networks](#content)
+
+1. **Generative Adversarial Networks: A Survey and Taxonomy.** arxiv 2019 [paper](https://arxiv.org/abs/1906.01529)
+
+    *Zhengwei Wang, Qi She, Tomas E Ward*
+
+1. **生成式对抗网络GAN的研究进展与展望.** 自动化学报 2017 [paper](https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2017&filename=MOTO201703001&v=MTE2NDViRzRIOWJNckk5RlpZUjhlWDFMdXhZUzdEaDFUM3FUcldNMUZyQ1VSN3FmWU9acUZDamhWcnpKS0NMZlk=)
+
+    *Kunfeng Wang, Gou Chao, Duan Yan-Jie, Lin Yilun*
+
+1. **A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications.** arXiv 2020 [paper](https://arxiv.org/abs/2001.06937)
+
+    *Jie Gui, Zhenan Sun, Yonggang Wen, Dacheng Tao, Jieping Ye*
+
+1. **Generative Adversarial Networks: An Overview.** IEEE Signal Processing Magazine 2018 [paper](https://arxiv.org/abs/1710.07035)
+
+    *Antonia Creswell, Tom White, Vincent Dumoulin, Kai Arulkumaran, Biswa Sengupta, Anil A Bharath*
+
+1. **How Generative Adversarial Nets and its variants Work: An Overview of GAN.** arxiv 2017 [paper](https://arxiv.org/abs/1711.05914v6)
+
+    *Yongjun Hong, Uiwon Hwang, Jaeyoon Yoo, Sungroh Yoon*
+
+1. **Stabilizing Generative Adversarial Networks: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1910.00927)
+
+    *Maciej Wiatrak, Stefano V. Albrecht, Andrew Nystrom*
+
+1. **A Survey on Generative Adversarial Networks: Variants, Applications, and Training.** arxiv 2020 [paper](https://arxiv.org/abs/2006.05132)
+
+    *Abdul Jabbar, Xi Li, Bourahla Omar*
+
+1. **Stabilizing Generative Adversarial Network Training: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1910.00927)
+
+    *Maciej Wiatrak, Stefano V. Albrecht, Andrew Nystrom*
+
+#### [Graph Neural Networks](#content)
+
+1. **Bridging the Gap between Spatial and Spectral Domains: A Survey on Graph Neural Networks.** arXiv 2020 [paper](https://arxiv.org/abs/2002.11867)
+
+    *Zhiqian Chen, Fanglan Chen, Lei Zhang, Taoran Ji, Kaiqun Fu, Liang Zhao, Feng Chen, Chang-Tien Lu*
+
+1. **Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective.** arXiv 2020 [paper](https://arxiv.org/abs/2003.00330)
+
+    *Luis C. Lamb, Artur Garcez, Marco Gori, Marcelo Prates, Pedro Avelar, Moshe Vardi*
+
+1. **Tackling Graphical NLP problems with Graph Recurrent Networks.** CoRR 2019 [paper](https://arxiv.org/abs/1907.06142)
+
+    *Linfeng Song*
+
+1. **Graph Neural Networks: A Review of Methods and Applications.** CoRR 2018 [paper](https://arxiv.org/abs/1812.08434)
+
+    *Maosong Sun，Zhengyan Zhang，
+Ganqu Cui ，Cheng Yang ，Jie Zhou ，
+Zhiyuan Liu*
+
+1. **Introduction to Graph Neural Networks.** IEEE 2020 [paper](https://ieeexplore.ieee.org/document/9048171)
+
+    *Zhiyuan Liu, Jie Zhou*
+
+1. **Adversarial Attack and Defense on Graph Data: A Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1812.10528)
+
+    *Lichao Sun, Ji Wang, Philip S. Yu, Bo Li*
+
+1. **Computational Capabilities of Graph Neural Networks.** IEEE 2009 [paper](https://ieeexplore.ieee.org/document/4703190)
+
+    *Franco Scarselli, Marco Gori, Ah Chung Tsoi, Markus Hagenbuchner, Gabriele Monfardini*
+
+1. **The Graph Neural Network Model.** IEEE 2009 [paper](https://ieeexplore.ieee.org/document/4700287)
+
+    *Franco Scarselli ; Marco Gori ; Ah Chung Tsoi ; Markus Hagenbuchner ; Gabriele Monfardini
+*
+
+1. **Benchmarking Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.00982)
+
+    *Vijay Prakash Dwivedi, Chaitanya K. Joshi, Thomas Laurent, Yoshua Bengio, Xavier Bresson*
+
+1. **A Survey on The Expressive Power of Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.04078)
+
+    *Ryoma Sato*
+
+1. **A Comprehensive Survey on Graph Neural Networks.** arxiv 2019 [paper](https://arxiv.org/abs/1901.00596)
+
+    *Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu*
+
+1. **Foundations and modelling of dynamic networks using Dynamic Graph Neural Networks: A survey.** arxiv 2020 [paper](https://arxiv.org/abs/2005.07496)
+
+    *Joakim Skarding, Bogdan Gabrys, Katarzyna Musial*
+
+1. **Graph embedding techniques, applications, and performance: A survey.** Knowledge Based Systems 2017 [paper](https://arxiv.org/abs/1705.02801)
+
+    *Palash Goyal, Emilio Ferrara*
+
+#### [Interpretability and Analysis](#content)
+
+1. **Visual interpretability for deep learning: a survey.** Journal of Zhejiang University Science C 2018 [paper](https://arxiv.org/abs/1802.00614)
+
+    *Quanshi Zhang, Songchun Zhu*
+
+1. **Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.** Information Fusion 2020 [paper](https://www.arxiv-vanity.com/papers/1910.10045/)
+
+    *Alejandro Barredo Arrieta, Natalia Diazrodriguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gillopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera*
+
+1. **How Generative Adversarial Networks and Their Variants Work: An Overview.** ACM 2017 [paper](https://arxiv.org/abs/1711.05914)
+
+    *Yongjun Hong, Uiwon Hwang, Jaeyoon Yoo, Sungroh Yoon*
+
+1. **Foundations of Explainable Knowledge-Enabled Systems.** Knowledge Graphs for eXplainable Artificial Intelligence: Foundations, Applications and Challenges/CoRR 2020 [paper](https://arxiv.org/abs/2003.07520)
+
+    *Shruthi Chari*
+
+1. **Explainable Reinforcement Learning: A Survey.** CoRR 2020 [paper](https://arxiv.org/abs/2005.06247)
+
+    *Erika Puiutta, Eric M. S. P. Veith*
+
+1. **Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models.** Annual reviews 2014 [paper](http://pdfs.semanticscholar.org/d74b/5dae099fd87e17fc4167bf4d88d5a9261824.pdf)
+
+    *David M. Blei*
+
+1. **Visualisation of Pareto Front Approximation: A Short Survey and Empirical Comparisons.** CEC 2019 [paper](https://arxiv.org/abs/1903.01768)
+
+    *Huiru Gao, Haifeng Nie, Ke Li*
+
+1. **Survey & Experiment: Towards the Learning Accuracy.** CoRR 2010 [paper](https://arxiv.org/abs/1012.4051)
+
+    *Zeyuan Allen Zhu*
+
+1. **Causal Interpretability for Machine Learning -- Problems, Methods and Evaluation.** Sigkdd Explorations 2020 [paper](https://arxiv.org/abs/2003.03934)
+
+    *Raha Moraffah, Mansooreh Karami, Ruocheng Guo, Adrienne Raglin, Huan Liu*
+
+1. **A Survey Of Methods For Explaining Black Box Models.** ACM 2018 [paper](https://dl.acm.org/doi/10.1145/3236009)
+
+    *Riccardo Guidotti, Anna Monreale, Salvatore Ruggieri, Franco Turini, Fosca Giannotti, Dino Pedreschi*
+
+1. **Language (Technology) is Power: A Critical Survey of "Bias" in NLP.** Association for Computational Linguistics 2020 [paper](https://arxiv.org/abs/2005.14050)
+
+    *Su Lin Blodgett, Solon Barocas, Hal Daumé III, Hanna Wallach*
+
+1. **A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability.** arxiv 2020 [paper](https://arxiv.org/abs/1812.08342)
+
+    *Xiaowei Huang*
+
+1. **Understanding Neural Networks via Feature Visualization: A survey.** arXiv 2019 [paper](https://arxiv.org/abs/1904.08939)
+
+    *Anh Nguyen, Jason Yosinski, Jeff Clune*
+
+#### [Meta Learning](#content)
+
+1. **A Comprehensive Overview and Survey of Recent Advances in Meta-Learning.** arxiv 2020 [paper](https://arxiv.org/abs/2004.11149)
+
+    *Huimin Peng*
+
+1. **Meta-Learning in Neural Networks: A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2004.05439)
+
+    *Timothy M. Hospedales, Antreas Antoniou, Paul Micaelli, Amos J. Storkey*
+
+1. **Meta-Learning: A Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1810.03548)
+
+    *Joaquin Vanschoren*
+
+#### [Metric Learning](#content)
+
+1. **A Tutorial on Distance Metric Learning: Mathematical Foundations, Algorithms and Experiments.** arxiv 2018 [paper](https://arxiv.org/abs/1812.05944)
+
+    *Juan Luis Suárez, Salvador García, Francisco Herrera*
+
+1. **A Survey on Metric Learning for Feature Vectors and Structured Data.** arxiv 2013 [paper](https://arxiv.org/abs/1306.6709)
+
+    *Aurélien Bellet, Amaury Habrard, Marc Sebban*
+
+#### [ML Applications](#content)
+
+1. **A Survey on Deep Learning based Brain-Computer Interface: Recent Advances and New Frontiers.** arXiv 2019 [paper](https://arxiv.org/abs/1905.04149v1)
+
+    *Xiang Zhang, Lina Yao, Xianzhi Wang, Jessica J M Monaghan, David Mcalpine, Yu Zhang*
+
+1. **Machine Learning Aided Static Malware Analysis: A Survey and Tutorial.** arxiv 2018 [paper](https://arxiv.org/abs/1808.01201)
+
+    *Andrii Shalaginov, Sergii Banin, Ali Dehghantanha, Katrin Franke*
+
+1. **Artificial Neural Networks-Based Machine Learning for Wireless Networks: A Tutorial.** IEEE Communications Surveys & Tutorials 2019 [paper](https://ieeexplore.ieee.org/document/8755300)
+
+    *Mingzhe Chen, Ursula Challita, Walid Saad, Changchuan Yin, Mérouane Debbah*
+
+1. **The Creation and Detection of Deepfakes:A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2004.11138v1)
+
+    *Yisroel Mirsky, Wenke Lee*
+
+1. **Machine Learning for Survival Analysis: A Survey.** CoRR 2017 [paper](https://arxiv.org/abs/1708.04649)
+
+    *Ping Wang, Yan Li, Chandan K. Reddy*
+
+1. **A Survey of Machine Learning Methods and Challenges for Windows Malware Classification.** arxiv 2020 [paper](https://arxiv.org/abs/2006.09271)
+
+    *Edward Raff, Charles Nicholas*
+
+1. **A survey on deep hashing for image retrieval.** arxiv 2020 [paper](https://arxiv.org/abs/2006.05627)
+
+    *Xiaopeng Zhang*
+
+1. **A Survey of Adaptive Resonance Theory Neural Network Models for Engineering Applications.** Neural Networks 2019 [paper](https://arxiv.org/abs/1905.11437)
+
+    *Leonardo Enzo Brito da Silva, Islam Elnabarawy, Donald C. Wunsch II*
+
+1. **How Developers Iterate on Machine Learning Workflows -- A Survey of the Applied Machine Learning Literature.** arxiv 2018 [paper](https://arxiv.org/abs/1803.10311)
+
+    *Doris Xin, Litian Ma, Shuchen Song, Aditya G. Parameswaran*
+
+1. **Malaria Likelihood Prediction By Effectively Surveying Households Using Deep Reinforcement Learning.** arxiv 2017 [paper](https://arxiv.org/abs/1711.09223)
+
+    *Pranav Rajpurkar, Vinaya Polamreddi, Anusha Balakrishnan*
+
+1. **A Survey on Deep Learning in Medical Image Analysis.** Medical Image Analysis 2017 [paper](https://arxiv.org/abs/1702.05747)
+
+    *Geert J S Litjens, Thijs Kooi, Babak Ehteshami Bejnordi, Arnaud A A Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen A W M Van Der Laak, Bram Van Ginneken, Clara I Sanchez*
+
+1. **AI and Holistic Review: Informing Human Reading in College Admissions.** arXiv 2019 [paper](https://arxiv.org/abs/1912.09318)
+
+    *AJ Alvero, Noah Arthurs, anthony lising antonio, Benjamin W. Domingue, Ben Gebre-Medhin, Sonia Giebel, Mitchell L. Stevens*
+
+#### [Model Compression and Acceleration](#content)
+
+1. **Pruning Algorithms to Accelerate Convolutional Neural Networks for Edge Applications: A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2005.04275)
+
+    *Jiayi Liu, Samarth Tripathi, Unmesh Kurup, Mohak Shah*
+
+1. **A Survey on Methods and Theories of Quantized Neural Networks.** CoRR 2018 [paper](https://arxiv.org/abs/1808.04752)
+
+    *Yunhui Guo*
+
+1. **Knowledge Distillation: A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2006.05525)
+
+    *Jianping Gou, Baosheng Yu, Stephen John Maybank, Dacheng Tao*
+
+1. **An Overview of Neural Network Compression.** arxiv 2020 [paper](https://arxiv.org/abs/2006.03669)
+
+    *J O Neill*
+
+1. **A Survey of Model Compression and Acceleration for Deep Neural Networks.** arxiv 2017 [paper](https://arxiv.org/abs/1710.09282)
+
+    *Yu Cheng, Duo Wang, Pan Zhou, Tao Zhang*
+
+#### [Multi-Task and Multi-View Learning](#content)
+
+1. **A Survey on Multi-Task Learning.** CoRR 2017 [paper](https://arxiv.org/abs/1707.08114)
+
+    *Yu Zhang, Qiang Yang*
+
+1. **An Overview of Multi-Task Learning in Deep Neural Networks.** arXiv 2017 [paper](https://arxiv.org/abs/1706.05098)
+
+    *Sebastian Ruder*
+
+1. **An overview of multi-task learning.** National Science Review 2018 [paper](https://academic.oup.com/nsr/article/5/1/30/4101432)
+
+    *Yu Zhang, Qiang Yang*
+
+1. **A Brief Review on Multi-Task Learning.** Multimedia Tools and Applications 2018 [paper](https://www.researchgate.net/publication/326903979_A_brief_review_on_multi-task_learning)
+
+    *Kimhan Thung, Chong Yaw Wee*
+
+1. **Revisiting Multi-Task Learning in the Deep Learning Era.** arxiv 2020 [paper](https://arxiv.org/abs/2004.13379)
+
+    *Simon Vandenhende, Stamatios Georgoulis, Marc Proesmans, Dengxin Dai, Luc Van Gool*
+
+1. **Revisiting Multi-Task Learning in the Deep Learning Era.** arxiv 2020 [paper](https://arxiv.org/abs/2004.13379)
+
+    *Simon Vandenhende, Stamatios Georgoulis, Marc Proesmans, Dengxin Dai, Luc Van Gool*
+
+1. **A Survey on Multi-view Learning.** CoRR 2013 [paper](https://arxiv.org/abs/1304.5634)
+
+    *Chang Xu, Dacheng Tao, Chao Xu*
+
+#### [Online Learning](#content)
+
+1. **Preference-based Online Learning with Dueling Bandits: A Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1807.11398)
+
+    *Robert Busa-Fekete, Eyke Hüllermeier, Adil El Mesaoudi-Paul*
+
+1. **Online Learning: A Comprehensive Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1802.02871)
+
+    *Steven C.H. Hoi, Doyen Sahoo, Jing Lu, Peilin Zhao*
+
+1. **A Survey of Algorithms and Analysis for Adaptive Online Learning.** Journal of Machine Learning Research 2017 [paper](https://arxiv.org/abs/1403.3465)
+
+    *H. Brendan McMahan*
+
+#### [Optimization](#content)
+
+1. **Convex Optimization Overview.** IEEE Signal Processing Magazine 2008 [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.6470)
+
+    *Nikos Komodakis*
+
+1. **Optimization for deep learning: theory and algorithms.** arxiv 2019 [paper](https://arxiv.org/abs/1912.08957)
+
+    *Ruoyu Sun*
+
+1. **A Systematic and Meta-analysis Survey of Whale Optimization Algorithm.** Comput. Intell. Neurosci. 2019 [paper](https://arxiv.org/abs/1903.08763)
+
+    *Hardi M. Mohammed, Shahla U. Umar, Tarik A. Rashid*
+
+1. **A Survey of Optimization Methods from a Machine Learning Perspective.** arxiv 2019 [paper](https://arxiv.org/abs/1906.06821)
+
+    *Shiliang Sun, Zehui Cao, Han Zhu, Jing Zhao*
+
+1. **Optimization Models for Machine Learning: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1901.05331)
+
+    *Claudio Gambella, Bissan Ghaddar, Joe Naoum-Sawaya*
+
+1. **Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives.** Machine Learning and Knowledge Extraction 2019 [paper](https://arxiv.org/abs/1804.05319)
+
+    *Saptarshi Sengupta, Sanchita Basak, Richard Alan Peters II*
+
+1. **Gradient Boosting Machine: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1908.06951)
+
+    *Zhiyuan He, Danchen Lin, Thomas Lau, Mike Wu*
+
+1. **An overview of gradient descent optimization algorithms.** arXiv 2017 [paper](https://arxiv.org/abs/1609.04747)
+
+    *Sebastian Ruder*
+
+#### [Semi-Supervised and Unsupervised Learning](#content)
+
+1. **Improvability Through Semi-Supervised Learning: A Survey of Theoretical Results.** arxiv 2019 [paper](https://arxiv.org/abs/1908.09574)
+
+    *Alexander Mey, Marco Loog*
+
+1. **A Survey on Semi-Supervised Learning Techniques.** CoRR 2014 [paper](https://arxiv.org/abs/1402.4645)
+
+    *V. Jothi Prakash, Dr. L.M. Nithya*
+
+1. **A brief introduction to weakly supervised learning.** arxiv 2018 [paper](https://cs.nju.edu.cn/_upload/tpl/01/0b/267/template267/zhouzh.files/publication/nsr18.pdf)
+
+    *Zhihua Zhou*
+
+1. **Learning from positive and unlabeled data: a survey.** Machine Learning 2020 [paper](https://arxiv.org/abs/1811.04820)
+
+    *Jessa Bekker, Jesse Davis*
 
 #### [Transfer Learning](#content)
 
@@ -1890,6 +1786,7 @@ Zhiyuan Liu*
 1. **Tutorial: Safe and Reliable Machine Learning.** CoRR 2019 [paper](https://arxiv.org/abs/1904.07204)
 
     *Suchi Saria, Adarsh Subbaswamy*
+
 
 
 
