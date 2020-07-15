@@ -67,11 +67,11 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 We order the areas by paper number (see Figure 1).
 
-<img src="https://i.loli.net/2020/07/15/ItnlZ9BzYjOudEh.png"  width="70%" height="70%" align="center" />
+<img src="https://i.loli.net/2020/07/15/ItnlZ9BzYjOudEh.png"  width="70%" height="70%" alt="" align="center" />
 
 <p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
 
-<img src="https://i.loli.net/2020/07/15/INycvlqoQTER9WU.png" width="70%" height="70%" align="center" />
+<img src="https://i.loli.net/2020/07/15/INycvlqoQTER9WU.png" width="70%" height="70%" />
 
 <p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
 
