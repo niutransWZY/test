@@ -12,7 +12,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
 + NLP
     + <a href="#machine-learning-for-nlp">Machine Learning for NLP</a>
     + <a href="#machine-translation">Machine Translation</a>
-    + <a href="#sentiment-analysis,-stylistic-analysis,-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a>
+    + <a href="#sentiment-analysis-stylistic-analysis-and-argument-mining">Sentiment Analysis Stylistic Analysis and Argument Mining</a>
     + <a href="#nlp-applications">NLP Applications</a>
     + <a href="#information-extraction">Information Extraction</a>
     + <a href="#dialogue-and-interactive-systems">Dialogue and Interactive Systems</a>
@@ -29,7 +29,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     + <a href="#natural-language-processing">Natural Language Processing</a>
     + <a href="#text-classification">Text Classification</a>
     + <a href="#information-retrieval-and-text-mining">Information Retrieval and Text Mining</a>
-    + <a href="#syntax:-tagging,-chunking,-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a>
+    + <a href="#tagging-chunking-syntax-and-parsing">Tagging Chunking Syntax and Parsing</a>
     + <a href="#semantics">Semantics</a>
     + <a href="#linguistic-theories,-cognitive-modeling-and-psycholinguistics">Linguistic Theories, Cognitive Modeling and Psycholinguistics</a>
     + <a href="#language-grounding-to-vision,-robotics-and-beyond">Language Grounding to Vision, Robotics and Beyond</a>
@@ -140,7 +140,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     <td><a href="#meta-learning">Meta Learning</a></td>
 </tr>
 <tr>
-    <td><a href="#syntax:-tagging,-chunking,-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a></td>
+    <td><a href="#tagging-chunking-syntax-and-parsing">Tagging Chunking Syntax and Parsing</a></td>
     <td><a href="#curriculum-learning">Curriculum Learning</a></td>
 </tr>
 <tr>
