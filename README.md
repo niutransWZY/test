@@ -75,6 +75,22 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 <p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
 
+<p align="center"><img src="https://i.loli.net/2020/07/16/dArgv7W4pmi8VYC.png"  width="70%" height="70%" /></p>
+
+<p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
+
+<p align="center"><img src="https://i.loli.net/2020/07/16/X5ATsoa26twrDKR.png" width="70%" height="70%" /></p>
+
+<p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
+
+<p align="center"><img src="https://i.loli.net/2020/07/16/5pA69SqxuUzyt7v.png"  width="70%" height="70%" /></p>
+
+<p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
+
+<p align="center"><img src="https://i.loli.net/2020/07/16/XCdhoMR26yTtNIl.png" width="70%" height="70%" /></p>
+
+<p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
+
 #### Also, we plot paper number as a function of publication year (see Figure 3).
 
 <p align="center"><img src="https://i.loli.net/2020/07/15/xGQJKnyaTbtDYi6.png" width="70%" height="70%"/></p>
@@ -1798,4 +1814,3 @@ Please feel free to contact us (email???) if you have any questions.
 We would like to thank the people who contributed to this project. They are
 
 XXXXX
-
