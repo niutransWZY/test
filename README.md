@@ -65,29 +65,29 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 ## Statistics
 
-We order the areas by paper number (see Figure 1).
+#### We order the areas by paper number (see Figures 1-2).
 
-<img src="https://i.loli.net/2020/07/15/ItnlZ9BzYjOudEh.png" align="center" width="70%" height="70%" />
+<p align="center"><img src="https://i.loli.net/2020/07/15/ItnlZ9BzYjOudEh.png"  width="70%" height="70%" /></p>
 
 <p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
 
-<img src="https://i.loli.net/2020/07/15/INycvlqoQTER9WU.png" width="70%" height="70%" />
+<p align="center"><img src="https://i.loli.net/2020/07/15/INycvlqoQTER9WU.png" width="70%" height="70%" /></p>
 
 <p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
 
-Also, we plot paper number as a function of publication year (see Figures 2).
+#### Also, we plot paper number as a function of publication year (see Figure 3).
 
-<img src="https://i.loli.net/2020/07/15/xGQJKnyaTbtDYi6.png" width="70%" height="70%" align="center"/>
+<p align="center"><img src="https://i.loli.net/2020/07/15/xGQJKnyaTbtDYi6.png" width="70%" height="70%"/></p>
 
 <p align="center">Figure 3:The trend in the number of survery articles over the years.</p>
 
-In addition, we generate the word cloud to show the hot topics in these surveys (see Figures 3).
+#### In addition, we generate the word cloud to show the hot topics in these surveys (see Figures 4-5).
 
-<img src="https://i.loli.net/2020/07/15/VYgHR6dhQc2J7Wx.png" width="70%" height="70%" align="center"/>
+<p align="center"><img src="https://i.loli.net/2020/07/15/Iywg9lxEGYRvpHO.png" width="70%" height="70%" /></p>
 
 <p align="center">Figure 4:The word cloud of NLP.</p>
 
-<img src="https://i.loli.net/2020/07/15/Iywg9lxEGYRvpHO.png" width="70%" height="70%" align="center"/>
+<p align="center"><img src="https://i.loli.net/2020/07/15/VYgHR6dhQc2J7Wx.png" width="70%" height="70%" /></p>
 
 <p align="center">Figure 5:The word cloud of Machine Learning.</p>
 
