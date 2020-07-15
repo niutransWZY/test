@@ -187,7 +187,7 @@ Also, we plot paper number as a function of publication year (see Figures 2).
 
 <center>Figure 3:The trend in the number of survery articles over the years.</center>
 
-In addition, we generate the word cloud to show the hot topics in these surveys (see Figures 3).
+In addition, we generate the word cloud to show the hot topics in these surveys (see Figures 4-5).
 
 <img src="https://i.loli.net/2020/07/15/Klfq2eLEBrW1sAH.png" style="zoom:40%"/>
 
