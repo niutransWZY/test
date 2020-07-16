@@ -67,27 +67,11 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 #### We order the areas by paper number (see Figures 1-2).
 
-<p align="center"><img src="https://i.loli.net/2020/07/15/ItnlZ9BzYjOudEh.png"  width="70%" height="70%" /></p>
+<p align="center"><img src="https://i.loli.net/2020/07/16/wArHEgWjSJO3xID.png"  width="70%" height="70%" /></p>
 
 <p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
 
-<p align="center"><img src="https://i.loli.net/2020/07/15/INycvlqoQTER9WU.png" width="70%" height="70%" /></p>
-
-<p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
-
-<p align="center"><img src="https://i.loli.net/2020/07/16/dArgv7W4pmi8VYC.png"  width="70%" height="70%" /></p>
-
-<p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
-
-<p align="center"><img src="https://i.loli.net/2020/07/16/X5ATsoa26twrDKR.png" width="70%" height="70%" /></p>
-
-<p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
-
-<p align="center"><img src="https://i.loli.net/2020/07/16/5pA69SqxuUzyt7v.png"  width="70%" height="70%" /></p>
-
-<p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
-
-<p align="center"><img src="https://i.loli.net/2020/07/16/XCdhoMR26yTtNIl.png" width="70%" height="70%" /></p>
+<p align="center"><img src="https://i.loli.net/2020/07/16/ZyumXl913Ea2nwC.png" width="70%" height="70%" /></p>
 
 <p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
 
@@ -172,10 +156,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Kun Jing, Jungang Xu*
 
-1. **Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation.** Journal of Artificial Intelligence Research 2018 [paper](https://arxiv.org/abs/1703.09902)
-
-    *Albert Gatt, Emiel Krahmer*
-
 1. **A Survey of Paraphrasing and Textual Entailment Methods.** Journal of Artificial Intelligence Research 2010 [paper](https://arxiv.org/abs/0912.3747)
 
     *Ion Androutsopoulos, Prodromos Malakasiotis*
@@ -192,11 +172,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Xipeng Qiu, Tianxiang Sun, Yige Xu, Yunfan Shao, Ning Dai, Xuanjing Huang*
 
-1. **Survey of the State of the Art in Natural Language Generation: Core tasks.** Journal of Artificial Intelligence Research 2018 [paper](https://arxiv.org/abs/1703.09902)
-
-    *Albert Gatt, Emiel Krahmer*
-
-1. **Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation.** arxiv 2017 [paper](https://arxiv.org/abs/1703.09902)
+1. **Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation.** Journal of Artificial Intelligence Research 2018 [paper](https://arxiv.org/abs/1703.09902)
 
     *Albert Gatt,Emiel Krahmer*
 
@@ -218,11 +194,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Jipeng Qiang, Zhenyu Qian, Yun Li, Yunhao Yuan, Xindong Wu*
 
-1. **Extracting Keywords from Open-Ended Business Survey Questions.** Journal of Data Mining and Digital Humanities 2018 [paper](https://arxiv.org/abs/1808.10685)
-
-    *Barbara Mcgillivray、Gard B Jenset 、Dominik Heil*
-
-1. **A Survey of Event Extraction From Text.** IEEE 2019 [paper](http://dblp.uni-trier.de/db/journals/access/access7.html#XiangW19)
+1. **A Survey of Event Extraction From Text.** IEEE 2019 [paper](https://ieeexplore.ieee.org/document/8918013)
 
     *Wei Xiang, Bang Wang*
 
@@ -230,7 +202,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Dimitra Gkatzia*
 
-1. **A Survey on Temporal Reasoning for Temporal Information Extraction from Text (Extended Abstract).** CoRR 2020 [paper](https://arxiv.org/abs/2005.06527)
+1. **A Survey on Temporal Reasoning for Temporal Information Extraction from Text (Extended Abstract).** CoRR 2019 [paper](https://arxiv.org/abs/2005.06527)
 
     *Artuur Leeuwenberg, Marie-Francine Moens*
 
@@ -254,10 +226,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Nabiha Asghar*
 
-1. **Neural Information Extraction From Natural Language Text.** Books and Theses 2019 [paper](https://edoc.ub.uni-muenchen.de/24953/)
-
-    *Pankaj Gupta*
-
 1. **More Data, More Relations, More Context and More Openness: A Review and Outlook for Relation Extraction.** arXiv 2020 [paper](https://arxiv.org/abs/2004.03186)
 
     *Xu Han, Tianyu Gao, Yankai Lin, Hao Peng, Yaoliang Yang, Chaojun Xiao, Zhiyuan Liu, Peng Li, Maosong Sun, Jie Zhou:*
@@ -280,7 +248,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Mehdi Allahyari, Seyed Amin Pouriyeh, Mehdi Assefi, Saied Safaei, Elizabeth D. Trippe, Juan B. Gutierrez, Krys Kochut*
 
-1. **Opinion Mining and Analysis: A survey.** CoRR 2013 [paper](https://arxiv.org/abs/1307.3336)
+1. **Opinion Mining and Analysis: A survey.** IJNLC 2013 [paper](https://arxiv.org/abs/1307.3336)
 
     *Arti Buche, M. B. Chandak, Akshay Zadgaonkar*
 
@@ -290,15 +258,11 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Afra Alishahi, Grzegorz Chrupala, Tal Linzen*
 
-1. **A Primer in BERTology: What we know about how BERT works.** arXiv 2020 [paper](https://arxiv.org/abs/2002.12327)
-
-    *Anna Rogers, Olga Kovaleva, Anna Rumshisky*
-
 1. **Beyond Leaderboards: A survey of methods for revealing weaknesses in Natural Language Inference data and models.** arxiv 2020 [paper](https://arxiv.org/abs/2005.14709)
 
     *Viktor Schlegel, Goran Nenadic, Riza Batista-Navarro*
 
-1. **Analysis Methods in Neural Language Processing: A Survey.** NACCL/CoRR 2018 [paper](https://arxiv.org/abs/1812.08951)
+1. **Analysis Methods in Neural Language Processing: A Survey.** NACCL 2018 [paper](https://arxiv.org/abs/1812.08951)
 
     *Yonatan Belinkov, James R. Glass*
 
@@ -312,10 +276,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 #### [Knowledge Graph](#content)
 
-1. **Knowledge Graph Embedding for Link Prediction and Triplet Classification.** CCKS 2016 [paper](https://link.springer.com/chapter/10.1007%2F978-981-10-3168-7_23)
-
-    *E. Shijia, Shengbin Jia, Yang Xiang, Zilian Ji*
-
 1. **Knowledge Graph Embedding: A Survey of Approaches and Applications.** IEEE 2017 [paper](https://ieeexplore.ieee.org/document/8047276)
 
     *Quan Wang, Zhendong Mao, Bin Wang, Li Guo*
@@ -328,11 +288,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Aidan Hogan, Eva Blomqvist, Michael Cochez, Claudia d'Amato, Gerard de Melo, Claudio Gutierrez, José Emilio Labra Gayo, Sabrina Kirrane, Sebastian Neumaier, Axel Polleres, Roberto Navigli, Axel-Cyrille Ngonga Ngomo, Sabbir M. Rashid, Anisa Rula, Lukas Schmelzeisen, Juan F. Sequeda, Steffen Staab, Antoine Zimmermann*
 
-1. **Simple Embedding for Link Prediction in Knowledge Graphs.** NIPS 2020 [paper](https://arxiv.org/abs/1802.04868)
-
-    *Seyed Mehran Kazemi, David Poole*
-
-1. **Knowledge Graph Embedding for Link Prediction: A Comparative Analysis.** arXiv 2020 [paper](https://arxiv.org/abs/2002.00819)
+1. **Knowledge Graph Embedding for Link Prediction: A Comparative Analysis.** arXiv 2016 [paper](https://arxiv.org/abs/2002.00819)
 
     *Andrea Rossi, Donatella Firmani, Antonio Matinata, Paolo Merialdo, Denilson Barbosa*
 
@@ -342,7 +298,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 #### [Language Grounding to Vision and Robotics and Beyond](#content)
 
-1. **Emotionally-Aware Chatbots: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1906.09774)
+1. **Emotionally-Aware Chatbots: A Survey.** arxiv 2018 [paper](https://arxiv.org/abs/1906.09774)
 
     *Endang Wahyu Pamungkas*
 
@@ -362,7 +318,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 #### [Machine Learning for NLP](#content)
 
-1. **Attention in Natural Language Processing.** arxiv 2020 [paper](https://arxiv.org/abs/1902.02181v2)
+1. **Attention in Natural Language Processing.** arxiv 2019 [paper](https://arxiv.org/abs/1902.02181v2)
 
     *Andrea Galassi, Marco Lippi, Paolo Torroni*
 
@@ -377,10 +333,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 1. **Symbolic, Distributed and Distributional Representations for Natural Language Processing in the Era of Deep Learning: a Survey.** arxiv 2017 [paper](https://arxiv.org/abs/1702.00764)
 
     *Lorenzo Ferrone, Fabio Massimo Zanzotto*
-
-1. **Neural Graph Embedding Methods for Natural Language Processing.** CoRR 2019 [paper](https://arxiv.org/abs/1911.03042)
-
-    *Shikhar Vashishth*
 
 1. **Adversarial Attacks and Defense on Texts: A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2005.14108)
 
@@ -402,7 +354,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Dichao Hu*
 
-1. **A Survey of the Usages of Deep Learning in Natural Language Processing.** arxiv 2018 [paper](https://arxiv.org/abs/1807.10854)
+1. **A Survey of the Usages of Deep Learning in Natural Language Processing.** IEEE 2018 [paper](https://arxiv.org/abs/1807.10854)
 
     *Daniel W. Otter, Julian R. Medina, Jugal K. Kalita*
 
@@ -418,11 +370,11 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Yoav Goldberg*
 
-1. **Recent Trends in Deep Learning Based Natural Language Processing.** arxiv 2017 [paper](https://arxiv.org/abs/1708.02709)
+1. **Recent Trends in Deep Learning Based Natural Language Processing.** IEEE 2018 [paper](https://ieeexplore.ieee.org/document/8416973)
 
     *Tom Young, Devamanyu Hazarika, Soujanya Poria, Erik Cambria*
 
-1. **Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering.** COLING/CoRR 2018 [paper](https://arxiv.org/pdf/1806.04330.pdf)
+1. **Neural Network Models for Paraphrase Identification, Semantic Textual Similarity, Natural Language Inference, and Question Answering.** COLING 2018 [paper](https://arxiv.org/pdf/1806.04330.pdf)
 
     *Wuwei Lan,Wei Xu*
 
@@ -434,11 +386,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Joshua Ackerman, George Cybenko*
 
-1. **Tutorial on Variational Autoencoders.** CoRR 2016 [paper](https://arxiv.org/pdf/1606.05908.pdf)
-
-    *Carl Doersch*
-
-1. **From static to dynamic word representations: a survey.** IJMLC 2020 [paper](https://link.springer.com/article/10.1007/s13042-020-01069-8)
+1. **From static to dynamic word representations: a survey.** ICMLC 2020 [paper](http://ir.hit.edu.cn/~car/papers/icmlc2020-wang.pdf)
 
     *Yuxuan Wang, Yutai Hou, Wanxiang Che, Ting Liu*
 
@@ -590,7 +538,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Kalyan KS, S Sangeetha*
 
-1. **Fake News: A Survey of Research, Detection Methods, and Opportunities.** arxiv 2018 [paper](https://arxiv.org/abs/1812.00315)
+1. **Fake News: A Survey of Research, Detection Methods, and Opportunities.** ACM 2018 [paper](https://arxiv.org/abs/1812.00315)
 
     *Xinyi Zhou, Reza Zafarani*
 
@@ -658,15 +606,11 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Boyu Qiu, Xu Chen, Jungang Xu, Yingfei Sun:*
 
-1. **Neural Reading Comprehension And Beyond.**  2018 [paper](https://stacks.stanford.edu/file/druid:gd576xb1833/thesis-augmented.pdf)
-
-    *Danqi Chen*
-
 1. **Neural Machine Reading Comprehension: Methods and Trends.** arxiv 2019 [paper](https://arxiv.org/abs/1907.01118)
 
     *Shanshan Liu, Xin Zhang, Sheng Zhang, Hui Wang, Weiming Zhang:*
 
-1. **Machine Reading Comprehension: The Role of Contextualized Language Models and Beyond.** arxiv 2020 [paper](https://arxiv.org/abs/2005.06249)
+1. **Machine Reading Comprehension: The Role of Contextualized Language Models and Beyond.** CoRR 2020 [paper](https://arxiv.org/abs/2005.06249)
 
     *Zhuosheng Zhang，Hai Zhao，Rui Wang*
 
@@ -700,19 +644,19 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Yongfeng Zhang, Xu Chen:*
 
-1. **A review on deep learning for recommender systems: challenges and remedies.** springerlink期刊 2019 [paper](https://link.springer.com/article/10.1007/s10462-018-9654-y)
+1. **A review on deep learning for recommender systems: challenges and remedies.** SpringerLink 2019 [paper](https://link.springer.com/article/10.1007/s10462-018-9654-y)
 
     *Zeynep Batmaz, Ali Yurekli, Alper Bilge, Cihan Kaleli:*
 
-1. **Adversarial Machine Learning in Recommender Systems:State of the art and Challenges.** arXiv 2020 [paper](https://arxiv.org/abs/2005.10322)
+1. **Adversarial Machine Learning in Recommender Systems:State of the art and Challenges.** ACM 2020 [paper](https://arxiv.org/abs/2005.10322)
 
     *Yashar Deldjoo, Tommaso Di Noia, Felice Antonio Merra*
 
-1. **A Survey on Knowledge Graph-Based Recommender Systems.** arxiv 2020 [paper](https://arxiv.org/abs/2003.00911)
+1. **A Survey on Knowledge Graph-Based Recommender Systems.** CoRR 2020 [paper](https://arxiv.org/abs/2003.00911)
 
     *Qingyu Guo, Fuzhen Zhuang, Chuan Qin, Hengshu Zhu, Xing Xie, Hui Xiong, Qing He*
 
-1. **Deep Learning on Knowledge Graph for Recommender System: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2004.00387)
+1. **Deep Learning on Knowledge Graph for Recommender System: A Survey.** ACM 2020 [paper](https://arxiv.org/abs/2004.00387)
 
     *Yang Gao, Yi-Fan Li, Yu Lin, Hang Gao, Latifur Khan*
 
@@ -722,7 +666,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Amir Bakarov*
 
-1. **Measuring Sentences Similarity: A Survey.** arxiv 2019 [paper](https://arxiv.org/abs/1910.03940)
+1. **Measuring Sentences Similarity: A Survey.** Indian Journal of Science and Technology 2019 [paper](https://arxiv.org/abs/1910.03940)
 
     *Mamdouh Farouk:*
 
@@ -768,7 +712,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Andrey Kutuzov, Lilja Øvrelid, Terrence Szymanski, Erik Velldal*
 
-1. **Word sense disambiguation: a survey.** arxiv 2015 [paper](https://arxiv.org/abs/1508.01346)
+1. **Word sense disambiguation: a survey.** ACM 2015 [paper](https://arxiv.org/abs/1508.01346)
 
     *Alok Ranjan Pal, Diganta Saha*
 
@@ -776,15 +720,15 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Yarin Gal*
 
-#### [Sentiment Analysis and Stylistic Analysis and Argument Mining](#content)
-
 1. **Semantic search on text and knowledge bases.** Foundations and trends in information retrieval 2016 [paper](https://www.researchgate.net/profile/Hannah_Bast/publication/304364705_Semantic_Search_on_Text_and_Knowledge_Bases/links/594a4734aca2723195de48df/Semantic-Search-on-Text-and-Knowledge-Bases.pdf)
 
-    *Bast, Hannah，Buchhold, Bjoern，Haussmann, Elmar*
+    *Hannah Bast ， Björn Buchhold， Elmar Haussmann *
 
 1. **Evolution of Semantic Similarity -- A Survey.** arxiv 2020 [paper](https://arxiv.org/abs/2004.13820)
 
     *Dhivya Chandrasekaran, Vijay Mago*
+
+#### [Sentiment Analysis and Stylistic Analysis and Argument Mining](#content)
 
 1. **A Comprehensive Survey on Aspect Based Sentiment Analysis.** arxiv 2020 [paper](https://arxiv.org/abs/2006.04611)
 
@@ -825,10 +769,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 1. **Sentiment Analysis on YouTube: A Brief Survey.** arxiv 2015 [paper](https://arxiv.org/abs/1511.09142)
 
     *Muhammad Zubair Asghar, Shakeel Ahmad, Afsana Marwat, Fazal Masud Kundi*
-
-1. **Deep learning for sentiment analysis: A survey.** arxiv 2018 [paper](https://arxiv.org/abs/1801.07883)
-
-    *Lei Zhang, Shuai Wang, Bing Liu*
 
 1. **Beneath the Tip of the Iceberg: Current Challenges and New Directions in Sentiment Analysis Research.** arXiv 2020 [paper](https://arxiv.org/abs/2005.00357v1)
 
@@ -878,10 +818,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Hui Lin, Vincent Ng*
 
-1. **Neural Abstractive Text Summarization with Sequence-to-Sequence Models.** arxiv 2018 [paper](https://arxiv.org/abs/1812.02303)
-
-    *Tian Shi, Yaser Keneshloo, Naren Ramakrishnan, Chandan K. Reddy*
-
 1. **Neural Abstractive Text Summarization with Sequence-to-Sequence Models: A Survey.** arxiv 2018 [paper](https://arxiv.org/abs/1812.02303)
 
     *Tian Shi, Yaser Keneshloo, Naren Ramakrishnan, Chandan K. Reddy*
@@ -890,7 +826,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Yue Dong*
 
-1. **Text Summarization Techniques: A Brief Survey.** arxiv 2017 [paper](https://arxiv.org/abs/1707.02268)
+1. **Text Summarization Techniques: A Brief Survey.** IJCAI 2017 [paper](https://arxiv.org/abs/1707.02268)
 
     *Mehdi Allahyari, Seyedamin Pouriyeh, Mehdi Assefi, Saeid Safaei, Elizabeth D. Trippe, Juan B. Gutierrez, Krys Kochut*
 
@@ -934,23 +870,17 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Kamran Kowsari, Kiana Jafari Meimandi, Mojtaba Heidarysafa, Sanjana Mendu, Laura E. Barnes, Donald E. Brown*
 
-1. **A survey on phrase structure learning methods for text classification.** CoRR 2014 [paper](https://arxiv.org/abs/1406.5598)
+1. **A survey on phrase structure learning methods for text classification.** IJNLC 2014 [paper](https://arxiv.org/abs/1406.5598)
 
     *Reshma Prasad, Mary Priya Sebastian*
 
-1. **A Survey of Naïve Bayes Machine Learning approach in Text Document Classification.** CoRR 2010 [paper](https://arxiv.org/abs/1003.1795)
+1. **A Survey of Naïve Bayes Machine Learning approach in Text Document Classification.** IJCSIS 2010 [paper](https://arxiv.org/abs/1003.1795)
 
     *K. A. Vidhya, G. Aghila*
-
-1. **Deep Learning Based Text Classification: A Comprehensive ReviewDeep Learning Based Text Classification.** arxiv 2020 [paper](https://arxiv.org/pdf/2004.03705.pdf)
-
-    *Shervin Minaee，Nal Kalchbrenner，Erik Cambria*
 
 1. **Deep Learning Based Text Classification: A Comprehensive Review.** arXiv 2020 [paper](https://arxiv.org/abs/2004.03705)
 
     *Shervin Minaee, Nal Kalchbrenner, Erik Cambria, Narjes Nikzad, Meysam Chenaghlu, Jianfeng Gao*
-
-## The Paper List of Machine Learning
 
 #### [Architectures](#content)
 
@@ -961,10 +891,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 1. **Deep Echo State Network (DeepESN): A Brief Survey.** arxiv 2017 [paper](https://arxiv.org/abs/1712.04323)
 
     *Claudio Gallicchio, Alessio Micheli*
-
-1. **Non-local Neural Networks.** CVPR 2018 [paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.html)
-
-    *Xiaolong Wang, Ross B. Girshick, Abhinav Gupta, Kaiming He*
 
 1. **Binary Neural Networks: A Survey.** Pattern Recognit. 2020 [paper](https://arxiv.org/abs/2004.03333)
 
@@ -981,10 +907,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 1. **A Survey on Latent Tree Models and Applications.** Journal of Artificial Intelligence Research 2013 [paper](https://arxiv.org/abs/1402.0577)
 
     *Raphaël Mourad, Christine Sinoquet, Nevin L. Zhang, Tengfei Liu, Philippe Leray*
-
-1. **Neural Module Networks.** CVPR 2016 [paper](https://ieeexplore.ieee.org/document/7780381)
-
-    *Jacob Andreas, Marcus Rohrbach, Trevor Darrell, D Klein*
 
 1. **A Survey of End-to-End Driving: Architectures and Training Methods.** arXiv 2020 [paper](https://arxiv.org/abs/2003.06404)
 
@@ -1023,10 +945,6 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 1. **AutoML: A Survey of the State-of-the-Art.** arxiv 2019 [paper](https://arxiv.org/abs/1908.00709)
 
     *Xin He, Kaiyong Zhao, Xiaowen Chu*
-
-1. **Neural Architecture Search at CVPR 2019.** CVPR 2019  [paper](https://drsleep.github.io/review/NAS-at-CVPR-2019/)
-
-    *Vladimir Nekrasov*
 
 1. **Benchmark and Survey of Automated Machine Learning Frameworks.** arXiv 2019 [paper](https://arxiv.org/abs/1904.12054)
 
@@ -1084,17 +1002,9 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Connor Shorten*
 
-1. **A Visual Survey of Data Augmentation in NLP.** not found  [paper]()
-
-    *Amit Chaudhary*
-
 1. **Time Series Data Augmentation for Deep Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/2002.12478)
 
     *Qingsong Wen, Liang Sun, Xiaomin Song, Jingkun Gao, Xue Wang, Huan Xu*
-
-1. **EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks.** arxiv 2019 [paper](https://arxiv.org/abs/1901.11196)
-
-    *Jason Wei, Kai Zou*
 
 #### [Deep Learning](#content)
 
@@ -1102,7 +1012,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Alex Labach, Hojjat Salehinejad, Shahrokh Valaee*
 
-1. **Deep Learning on Graphs: A Survey.** arxiv 2018 [paper](https://arxiv.org/abs/1812.04202)
+1. **Deep Learning on Graphs: A Survey.** IEEE 2018 [paper](https://arxiv.org/abs/1812.04202)
 
     *Ziwei Zhang, Peng Cui, Wenwu Zhu*
 
@@ -1110,21 +1020,13 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Zahangir Alom, Tarek M Taha, Christopher Yakopcic, Stefan Westberg, Paheding Sidike, Mst Shamima Nasrin, Brian C Van Esesn, Abdul A S Awwal, Vijayan K Asari*
 
-1. **Geometric Deep Learning: Going beyond Euclidean data.** IEEE/CoRR 2016 [paper](https://arxiv.org/abs/1611.08097)
+1. **Geometric Deep Learning: Going beyond Euclidean data.** IEEE 2016 [paper](https://arxiv.org/abs/1611.08097)
 
     *Michael M. Bronstein, Joan Bruna, Yann LeCun, Arthur Szlam, Pierre Vandergheynst*
-
-1. **Neural Message Passing for Quantum Chemistry.** ICML/CoRR 2017 [paper](https://arxiv.org/abs/1704.01212)
-
-    *Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl*
 
 1. **A survey on modern trainable activation functions.** arxiv 2020 [paper](https://arxiv.org/abs/2005.00817)
 
     *Andrea Apicella, Francesco Donnarumma, Francesco Isgrò, Roberto Prevete*
-
-1. **Foundations of Sequence-to-Sequence Modeling for Time Series.** AISTATS 2018 [paper](https://arxiv.org/abs/1805.03714)
-
-    *Vitaly Kuznetsov, Zelda Mariet*
 
 1. **A Survey of Neuromorphic Computing and Neural Networks in Hardware.** CoRR 2017 [paper](https://arxiv.org/abs/1705.06963)
 
@@ -1134,7 +1036,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Amit Sahu*
 
-1. **Convergence of Edge Computing and Deep Learning: A Comprehensive Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1907.08349?context=cs.NI)
+1. **Convergence of Edge Computing and Deep Learning: A Comprehensive Survey.** IEEE 2020 [paper](https://ieeexplore.ieee.org/document/8976180)
 
     *Xiaofei Wang, Yiwen Han, Victor C.M. Leung, Dusit Niyato, Xueqiang Yan, Xu Chen*
 
@@ -1226,23 +1128,23 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Lingjuan Lyu, Han Yu, Qiang Yang*
 
+1. **Advances and Open Problems in Federated Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1912.04977)
+
+    *Peter Kairouz, H Brendan Mcmahan, Brendan Avent, Aurelien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Keith Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael G L Doliveira, Salim El Rouayheb, David Evans, Josh Gardner, Zachary A Garrett, Adria Gascon, Badih Ghazi, Phillip B Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub Konecný, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, Tancrede Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer Ozgur, Rasmus Pagh, Mariana Raykova, Hang Qi, Daniel Ramage, Ramesh Raskar, Dawn Song, Weikang Song, Sebastian U Stich, Ziteng Sun, Ananda Theertha Suresh, Florian Tramer, Praneeth Vepakomma, Jianyu Wang, Li Xiong, Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao*
+
 1. **A Survey towards Federated Semi-supervised Learning.** FRUCT 2020 [paper](https://arxiv.org/abs/2002.11545v1)
 
     *Yilun Jin, Xiguang Wei, Yang Liu, Qiang Yang*
 
 #### [Few-Shot and Zero-Shot Learning](#content)
 
-1. **Generalizing from a Few Examples: A Survey on Few-Shot Learning.** arxiv 2019 [paper](https://arxiv.org/abs/1904.05046)
+1. **Generalizing from a Few Examples: A Survey on Few-Shot Learning.** ACM 2019 [paper](https://arxiv.org/abs/1904.05046)
 
     *Yaqing Wang, Quanming Yao, James Kwok, Lionel M. Ni*
 
-1. **Few-shot Learning: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1904.05046v1)
+1. **Few-shot Learning: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1904.05046v1)
 
     *Yaqing Wang, Quanming Yao*
-
-1. **A survey on Zero-shot learning.** Journal of science  [paper]()
-
-    *Fengyi Song*
 
 1. **A Survey of Zero-Shot Learning: Settings, Methods, and Applications.** ACM Journals 2019 [paper](https://dl.acm.org/doi/10.1145/3293318)
 
@@ -1250,19 +1152,11 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 #### [General Machine Learning](#content)
 
-1. **Ensembling Neural Networks: Many Could Be Better than All.** Artificial Intelligence 2002 [paper](https://doi.org/10.1016/S0004-3702(02)00190-X)
-
-    *Zhihua Zhou, Jianxin Wu, Wei Tang*
-
-1. **Advances and Open Problems in Federated Learning.** arXiv 2019 [paper](https://arxiv.org/abs/1912.04977)
-
-    *Peter Kairouz, H Brendan Mcmahan, Brendan Avent, Aurelien Bellet, Mehdi Bennis, Arjun Nitin Bhagoji, Keith Bonawitz, Zachary Charles, Graham Cormode, Rachel Cummings, Rafael G L Doliveira, Salim El Rouayheb, David Evans, Josh Gardner, Zachary A Garrett, Adria Gascon, Badih Ghazi, Phillip B Gibbons, Marco Gruteser, Zaid Harchaoui, Chaoyang He, Lie He, Zhouyuan Huo, Ben Hutchinson, Justin Hsu, Martin Jaggi, Tara Javidi, Gauri Joshi, Mikhail Khodak, Jakub Konecný, Aleksandra Korolova, Farinaz Koushanfar, Sanmi Koyejo, Tancrede Lepoint, Yang Liu, Prateek Mittal, Mehryar Mohri, Richard Nock, Ayfer Ozgur, Rasmus Pagh, Mariana Raykova, Hang Qi, Daniel Ramage, Ramesh Raskar, Dawn Song, Weikang Song, Sebastian U Stich, Ziteng Sun, Ananda Theertha Suresh, Florian Tramer, Praneeth Vepakomma, Jianyu Wang, Li Xiong, Zheng Xu, Qiang Yang, Felix X Yu, Han Yu, Sen Zhao*
-
 1. **Relational inductive biases, deep learning, and graph networks.** CoRR 2018 [paper](http://arxiv.org/abs/1806.01261)
 
     *Peter W. Battaglia, Jessica B. Hamrick, Victor Bapst, Alvaro Sanchez-Gonzalez, Vinícius Flores Zambaldi, Mateusz Malinowski, Andrea Tacchetti, David Raposo, Adam Santoro, Ryan Faulkner, Çaglar Gülçehre, H. Francis Song, Andrew J. Ballard, Justin Gilmer, George E. Dahl, Ashish Vaswani, Kelsey R. Allen, Charles Nash, Victoria Langston, Chris Dyer, Nicolas Heess, Daan Wierstra, Pushmeet Kohli, Matthew Botvinick, Oriol Vinyals, Yujia Li, Razvan Pascanu*
 
-1. **A Survey on Graph Kernels.** Applied Network Science 2020 [paper](https://arxiv.org/abs/1903.11835)
+1. **A Survey on Graph Kernels.** Applied Network Science 2020 [paper](https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0195-3)
 
     *Nils M. Kriege, Fredrik D. Johansson, Christopher Morris*
 
@@ -1274,7 +1168,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Davide Bacciu, Antonio Bruno*
 
-1. **A Survey on Multi-output Learning.** CoRR 2019 [paper](https://arxiv.org/abs/1901.00248)
+1. **A Survey on Multi-output Learning.** IEEE 2019 [paper](https://arxiv.org/abs/1901.00248)
 
     *Donna Xu, Yaxin Shi, Ivor W. Tsang, Yew-Soon Ong, Chen Gong, Xiaobo Shen*
 
@@ -1286,7 +1180,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Weiming Xiang, Patrick Musau, Ayana A. Wild, Diego Manzanas Lopez, Nathaniel Hamilton, Xiaodong Yang, Joel Rosenfeld, Taylor T. Johnson*
 
-1. **A Survey on Surrogate Approaches to Non-negative Matrix Factorization.** CoRR 2018 [paper](https://arxiv.org/abs/1808.01975)
+1. **A Survey on Surrogate Approaches to Non-negative Matrix Factorization.** Vietnam journal of mathematics 2018 [paper](https://arxiv.org/abs/1808.01975)
 
     *Pascal Fernsel, Peter Maass*
 
@@ -1322,7 +1216,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *LI Xu-ran，DING Xiao-hong*
 
-1. **Machine Learning in Network Centrality Measures: Tutorial and Outlook.** Association for Computing Machinery 2018 [paper](https://arxiv.org/abs/1810.11760)
+1. **Machine Learning in Network Centrality Measures: Tutorial and Outlook.** Association for Computing Machinery 2018 [paper](https://dl.acm.org/doi/10.1145/3237192)
 
     *Felipe Grando, Lisandro Zambenedetti Granville, Luís C. Lamb*
 
@@ -1338,7 +1232,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Xingjian Shi, Dit-Yan Yeung*
 
-1. **Network Representation Learning: A Survey.** IEEE Trans. Big Data 2020 [paper](https://arxiv.org/abs/1801.05852)
+1. **Network Representation Learning: A Survey.** IEEE 2020 [paper](https://www.computer.org/csdl/journal/bd/2020/01/08395024/1hN4aUycB8Y)
 
     *Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang*
 
@@ -1346,7 +1240,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Hamidou Tembine, Raúl Tempone, Pedro Vilanova*
 
-1. **Narrative Science Systems: A Review.** International Journal of Research 2015 [paper](https://arxiv.org/abs/1510.04420)
+1. **Narrative Science Systems: A Review.** International Journal of Research in Computer Science 2015 [paper](https://arxiv.org/abs/1510.04420)
 
     *Paramjot Kaur Sarao, Puneet Mittal, Rupinder Kaur*
 
@@ -1366,11 +1260,11 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *C.O.S. Sorzano, J. Vargas, A. Pascual Montano*
 
-1. **Relational Representation Learning for Dynamic (Knowledge) Graphs: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1905.11485)
+1. **Relational Representation Learning for Dynamic (Knowledge) Graphs: A Survey.** JMLR 2019 [paper](https://arxiv.org/abs/1905.11485)
 
     *Seyed Mehran Kazemi, Rishab Goel, Kshitij Jain, Ivan Kobyzev, Akshay Sethi, Peter Forsyth, Pascal Poupart*
 
-1. **Graph Representation Learning: A Survey.** arXiv 2019 [paper](https://arxiv.org/abs/1909.00958)
+1. **Graph Representation Learning: A Survey.** APSIPA Transactions on Signal and Information Processing 2019 [paper](http://jmlr.csail.mit.edu/papers/v21/19-447.html)
 
     *Fenxiao Chen, Yuncheng Wang, Bin Wang, C.-C. Jay Kuo*
 
@@ -1386,17 +1280,21 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Jie M. Zhang (1), Mark Harman (1 and 2), Lei Ma (3), Yang Liu (4) ((1) University College London, (2) Facebook London, (3) Kyushu University, (4) Nanyang Technological University)*
 
-1. **Heuristic design of fuzzy inference systems: A review of three decades of research.** arXiv 2019 [paper](https://arxiv.org/abs/1908.10122)
+1. **Heuristic design of fuzzy inference systems: A review of three decades of research.** Engineering Applications of Artificial Intelligence 2019 [paper](https://arxiv.org/abs/1908.10122)
 
     *Varun Ojha, Ajith Abraham, Vaclav Snasel*
 
-1. **Imbalance Problems in Object Detection: A Review.** arXiv 2019 [paper](https://arxiv.org/abs/1909.00169)
+1. **Imbalance Problems in Object Detection: A Review.** IEEE 2019 [paper](https://arxiv.org/abs/1909.00169)
 
     *Kemal Oksuz, Baris Can Cam, Sinan Kalkan, Emre Akbas*
 
 1. **Machine Learning at the Network Edge: A Survey.** arXiv 2020 [paper](https://arxiv.org/abs/1908.00080)
 
     *M.G. Sarwar Murshed, Christopher Murphy, Daqing Hou, Nazar Khan, Ganesh Ananthanarayanan, Faraz Hussain*
+
+1. **Tutorial on Variational Autoencoders.** CoRR 2016 [paper](https://arxiv.org/pdf/1606.05908.pdf)
+
+    *Carl Doersch*
 
 1. **Adversarial Examples in Modern Machine Learning: A Review.** arXiv 2019 [paper](https://arxiv.org/abs/1911.05268)
 
@@ -1424,7 +1322,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
     *Jie Gui, Zhenan Sun, Yonggang Wen, Dacheng Tao, Jieping Ye*
 
-1. **Generative Adversarial Networks: An Overview.** IEEE Signal Processing Magazine 2018 [paper](https://arxiv.org/abs/1710.07035)
+1. **Generative Adversarial Networks: An Overview.** IEEE 2018 [paper](https://arxiv.org/abs/1710.07035)
 
     *Antonia Creswell, Tom White, Vincent Dumoulin, Kai Arulkumaran, Biswa Sengupta, Anil A Bharath*
 
@@ -1481,15 +1379,11 @@ Zhiyuan Liu*
     *Franco Scarselli ; Marco Gori ; Ah Chung Tsoi ; Markus Hagenbuchner ; Gabriele Monfardini
 *
 
-1. **Benchmarking Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.00982)
-
-    *Vijay Prakash Dwivedi, Chaitanya K. Joshi, Thomas Laurent, Yoshua Bengio, Xavier Bresson*
-
 1. **A Survey on The Expressive Power of Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.04078)
 
     *Ryoma Sato*
 
-1. **A Comprehensive Survey on Graph Neural Networks.** arxiv 2019 [paper](https://arxiv.org/abs/1901.00596)
+1. **A Comprehensive Survey on Graph Neural Networks.** IEEE 2019 [paper](https://arxiv.org/abs/1901.00596)
 
     *Zonghan Wu, Shirui Pan, Fengwen Chen, Guodong Long, Chengqi Zhang, Philip S. Yu*
 
@@ -1507,7 +1401,7 @@ Zhiyuan Liu*
 
     *Quanshi Zhang, Songchun Zhu*
 
-1. **Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.** Information Fusion 2020 [paper](https://www.arxiv-vanity.com/papers/1910.10045/)
+1. **Explainable Artificial Intelligence (XAI): Concepts, Taxonomies, Opportunities and Challenges toward Responsible AI.** Information Fusion 2020 [paper](https://arxiv.org/abs/1910.10045)
 
     *Alejandro Barredo Arrieta, Natalia Diazrodriguez, Javier Del Ser, Adrien Bennetot, Siham Tabik, Alberto Barbado, Salvador Garcia, Sergio Gillopez, Daniel Molina, Richard Benjamins, Raja Chatila, Francisco Herrera*
 
@@ -1519,13 +1413,9 @@ Zhiyuan Liu*
 
     *Shruthi Chari*
 
-1. **Explainable Reinforcement Learning: A Survey.** CoRR 2020 [paper](https://arxiv.org/abs/2005.06247)
+1. **Explainable Reinforcement Learning: A Survey.** CD-MAKE 2020 2020 [paper](https://arxiv.org/abs/2005.06247)
 
     *Erika Puiutta, Eric M. S. P. Veith*
-
-1. **Build, Compute, Critique, Repeat: Data Analysis with Latent Variable Models.** Annual reviews 2014 [paper](http://pdfs.semanticscholar.org/d74b/5dae099fd87e17fc4167bf4d88d5a9261824.pdf)
-
-    *David M. Blei*
 
 1. **Visualisation of Pareto Front Approximation: A Short Survey and Empirical Comparisons.** CEC 2019 [paper](https://arxiv.org/abs/1903.01768)
 
@@ -1547,7 +1437,7 @@ Zhiyuan Liu*
 
     *Su Lin Blodgett, Solon Barocas, Hal Daumé III, Hanna Wallach*
 
-1. **A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability.** arxiv 2020 [paper](https://arxiv.org/abs/1812.08342)
+1. **A Survey of Safety and Trustworthiness of Deep Neural Networks: Verification, Testing, Adversarial Attack and Defence, and Interpretability.** arxiv 2018 [paper](https://arxiv.org/abs/1812.08342)
 
     *Xiaowei Huang*
 
@@ -1589,7 +1479,7 @@ Zhiyuan Liu*
 
     *Andrii Shalaginov, Sergii Banin, Ali Dehghantanha, Katrin Franke*
 
-1. **Artificial Neural Networks-Based Machine Learning for Wireless Networks: A Tutorial.** IEEE Communications Surveys & Tutorials 2019 [paper](https://ieeexplore.ieee.org/document/8755300)
+1. **Artificial Neural Networks-Based Machine Learning for Wireless Networks: A Tutorial.** IEEE 2019 [paper](https://ieeexplore.ieee.org/document/8755300)
 
     *Mingzhe Chen, Ursula Challita, Walid Saad, Changchuan Yin, Mérouane Debbah*
 
@@ -1617,17 +1507,9 @@ Zhiyuan Liu*
 
     *Doris Xin, Litian Ma, Shuchen Song, Aditya G. Parameswaran*
 
-1. **Malaria Likelihood Prediction By Effectively Surveying Households Using Deep Reinforcement Learning.** arxiv 2017 [paper](https://arxiv.org/abs/1711.09223)
-
-    *Pranav Rajpurkar, Vinaya Polamreddi, Anusha Balakrishnan*
-
 1. **A Survey on Deep Learning in Medical Image Analysis.** Medical Image Analysis 2017 [paper](https://arxiv.org/abs/1702.05747)
 
     *Geert J S Litjens, Thijs Kooi, Babak Ehteshami Bejnordi, Arnaud A A Setio, Francesco Ciompi, Mohsen Ghafoorian, Jeroen A W M Van Der Laak, Bram Van Ginneken, Clara I Sanchez*
-
-1. **AI and Holistic Review: Informing Human Reading in College Admissions.** arXiv 2019 [paper](https://arxiv.org/abs/1912.09318)
-
-    *AJ Alvero, Noah Arthurs, anthony lising antonio, Benjamin W. Domingue, Ben Gebre-Medhin, Sonia Giebel, Mitchell L. Stevens*
 
 #### [Model Compression and Acceleration](#content)
 
@@ -1673,10 +1555,6 @@ Zhiyuan Liu*
 
     *Simon Vandenhende, Stamatios Georgoulis, Marc Proesmans, Dengxin Dai, Luc Van Gool*
 
-1. **Revisiting Multi-Task Learning in the Deep Learning Era.** arxiv 2020 [paper](https://arxiv.org/abs/2004.13379)
-
-    *Simon Vandenhende, Stamatios Georgoulis, Marc Proesmans, Dengxin Dai, Luc Van Gool*
-
 1. **A Survey on Multi-view Learning.** CoRR 2013 [paper](https://arxiv.org/abs/1304.5634)
 
     *Chang Xu, Dacheng Tao, Chao Xu*
@@ -1697,7 +1575,7 @@ Zhiyuan Liu*
 
 #### [Optimization](#content)
 
-1. **Convex Optimization Overview.** IEEE Signal Processing Magazine 2008 [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.6470)
+1. **Convex Optimization Overview.** IEEE 2008 [paper](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.6470)
 
     *Nikos Komodakis*
 
@@ -1777,10 +1655,6 @@ Zhiyuan Liu*
 
     *Lei Zhang*
 
-1. **Neural Transfer Learning for Natural Language Processing.** PhD Thesis  [paper]()
-
-    *SEBASTIAN RUDER*
-
 1. **Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer.** CoRR 2019 [paper](https://arxiv.org/pdf/1910.10683.pdf)
 
     *Colin Raffel, Noam Shazeer, Adam Roberts, Katherine Lee, Sharan Narang, Michael Matena, Yanqi Zhou, Wei Li, Peter J. Liu*
@@ -1807,6 +1681,8 @@ Zhiyuan Liu*
 
 
 
+
+
 ## Acknowledge
 
 Please feel free to contact us (email???) if you have any questions.
@@ -1814,3 +1690,4 @@ Please feel free to contact us (email???) if you have any questions.
 We would like to thank the people who contributed to this project. They are
 
 XXXXX
+
