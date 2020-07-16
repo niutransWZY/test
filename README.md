@@ -71,7 +71,7 @@ To reduce class imbalance, we separate some of the hot sub-topics from the origi
 
 <p align="center">Figure 1:The number of different areas of survey papers in the NLP.</p>
 
-<p align="center"><img src="https://i.loli.net/2020/07/16/ZyumXl913Ea2nwC.png" width="70%" height="70%" /></p>
+<p align="center"><img src="https://i.loli.net/2020/07/16/E3PenGRVsp1UMxY.png" width="70%" height="70%" /></p>
 
 <p align="center">Figure 2:The number of different areas of survey papers in the Machine Learning.</p>
 
@@ -1369,14 +1369,6 @@ Zhiyuan Liu*
 1. **Adversarial Attack and Defense on Graph Data: A Survey.** CoRR 2018 [paper](https://arxiv.org/abs/1812.10528)
 
     *Lichao Sun, Ji Wang, Philip S. Yu, Bo Li*
-
-1. **Computational Capabilities of Graph Neural Networks.** IEEE 2009 [paper](https://ieeexplore.ieee.org/document/4703190)
-
-    *Franco Scarselli, Marco Gori, Ah Chung Tsoi, Markus Hagenbuchner, Gabriele Monfardini*
-
-1. **The Graph Neural Network Model.** IEEE 2009 [paper](https://ieeexplore.ieee.org/document/4700287)
-
-    *Franco Scarselli ; Marco Gori ; Ah Chung Tsoi ; Markus Hagenbuchner ; Gabriele Monfardini*
 
 1. **A Survey on The Expressive Power of Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.04078)
 
