@@ -1376,8 +1376,7 @@ Zhiyuan Liu*
 
 1. **The Graph Neural Network Model.** IEEE 2009 [paper](https://ieeexplore.ieee.org/document/4700287)
 
-    *Franco Scarselli ; Marco Gori ; Ah Chung Tsoi ; Markus Hagenbuchner ; Gabriele Monfardini
-*
+    *Franco Scarselli ; Marco Gori ; Ah Chung Tsoi ; Markus Hagenbuchner ; Gabriele Monfardini*
 
 1. **A Survey on The Expressive Power of Graph Neural Networks.** CoRR 2020 [paper](https://arxiv.org/abs/2003.04078)
 
