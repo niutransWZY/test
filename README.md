@@ -32,7 +32,7 @@ We follow the ACL and ICML submission guideline of recent years, covering a broa
     + <a href="#sentiment-analysis-and-stylistic-analysis-and-argument-mining">Sentiment Analysis, Stylistic Analysis, and Argument Mining</a>
     + <a href="#speech-and-multimodality">Speech and Multimodality</a>
     + <a href="#summarization">Summarization</a>
-    + <a href="#tagging-and-chunking-and-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a>
+    + <a href="#tagging-chunking-syntax-and-parsing">Syntax: Tagging, Chunking, Syntax and Parsing</a>
     + <a href="#text-classification">Text Classification</a>
 + Machine Learning
     + <a href="#architectures">Architectures</a>
